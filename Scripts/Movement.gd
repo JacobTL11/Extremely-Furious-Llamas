@@ -1,10 +1,15 @@
 extends KinematicBody2D
 
 onready var Charlles = get_node("Charlles")
-var speed : int = 600
-var jump_speed : int = 500
-var gravity : int = 1000
+onready var animator = get_node("Charlles/AnimationPlayer")
+var speed = 600
+var jump_speed = 500
+var gravity = 1000
 var velocity = Vector2()
+
+func _ready():
+	animator.play("Idle")
+	pass
 
 func get_input(delta):
 	velocity.x = 0
