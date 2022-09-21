@@ -1,8 +1,16 @@
-extends Node
+extends Area2D
 
 
 # Declare member variables here. Examples:
-var isPickedUp = false
+# var a = 2
+# var b = "text"
+
+func _physics_process(delta):
+	for body in get_overlapping_bodies():
+		if body.has_method("pickup_ingredient"):
+			body.pickup()
+			self.get_parent().hide()
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
