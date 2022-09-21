@@ -1,13 +1,14 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
-[ext_resource path="res://Art/Charlles/Charlles_Pieces.png" type="Texture" id=2]
+[ext_resource path="res://Art/Llamas/Marshall_Pieces.png" type="Texture" id=1]
+[ext_resource path="res://Art/Llamas/Marshall.png" type="Texture" id=2]
 
 [sub_resource type="Animation" id=3]
 resource_name = "Idle"
 length = 4.0
 loop = true
 tracks/0/type = "value"
-tracks/0/path = NodePath("Skeleton2D/Hip/Torso/ArmR:position")
+tracks/0/path = NodePath("Marshall/Skeleton2D/Hip/Torso/ArmR:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
@@ -19,7 +20,7 @@ tracks/0/keys = {
 "values": [ Vector2( 515, 188 ) ]
 }
 tracks/1/type = "value"
-tracks/1/path = NodePath("Skeleton2D/Hip/Torso/ArmR:rotation_degrees")
+tracks/1/path = NodePath("Marshall/Skeleton2D/Hip/Torso/ArmR:rotation_degrees")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/imported = false
@@ -31,7 +32,7 @@ tracks/1/keys = {
 "values": [ 90.4129 ]
 }
 tracks/2/type = "value"
-tracks/2/path = NodePath("Skeleton2D/Hip/Torso/ArmL:position")
+tracks/2/path = NodePath("Marshall/Skeleton2D/Hip/Torso/ArmL:position")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/imported = false
@@ -43,7 +44,7 @@ tracks/2/keys = {
 "values": [ Vector2( 282, 197 ) ]
 }
 tracks/3/type = "value"
-tracks/3/path = NodePath("Skeleton2D/Hip/Torso/ArmL:rotation_degrees")
+tracks/3/path = NodePath("Marshall/Skeleton2D/Hip/Torso/ArmL:rotation_degrees")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/imported = false
@@ -55,7 +56,7 @@ tracks/3/keys = {
 "values": [ 90.4129 ]
 }
 tracks/4/type = "value"
-tracks/4/path = NodePath("Skeleton2D/Hip/LegR:position")
+tracks/4/path = NodePath("Marshall/Skeleton2D/Hip/LegR:position")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/imported = false
@@ -67,7 +68,7 @@ tracks/4/keys = {
 "values": [ Vector2( 197, 228 ) ]
 }
 tracks/5/type = "value"
-tracks/5/path = NodePath("Skeleton2D/Hip/LegR:rotation_degrees")
+tracks/5/path = NodePath("Marshall/Skeleton2D/Hip/LegR:rotation_degrees")
 tracks/5/interp = 1
 tracks/5/loop_wrap = true
 tracks/5/imported = false
@@ -79,7 +80,7 @@ tracks/5/keys = {
 "values": [ 90.4129 ]
 }
 tracks/6/type = "value"
-tracks/6/path = NodePath("Skeleton2D/Hip/LegL:position")
+tracks/6/path = NodePath("Marshall/Skeleton2D/Hip/LegL:position")
 tracks/6/interp = 1
 tracks/6/loop_wrap = true
 tracks/6/imported = false
@@ -91,7 +92,7 @@ tracks/6/keys = {
 "values": [ Vector2( -1.00003, 232 ) ]
 }
 tracks/7/type = "value"
-tracks/7/path = NodePath("Skeleton2D/Hip/LegL:rotation_degrees")
+tracks/7/path = NodePath("Marshall/Skeleton2D/Hip/LegL:rotation_degrees")
 tracks/7/interp = 1
 tracks/7/loop_wrap = true
 tracks/7/imported = false
@@ -103,7 +104,7 @@ tracks/7/keys = {
 "values": [ 90.4129 ]
 }
 tracks/8/type = "value"
-tracks/8/path = NodePath("Skeleton2D/Hip/Torso/Neck:position")
+tracks/8/path = NodePath("Marshall/Skeleton2D/Hip/Torso/Neck:position")
 tracks/8/interp = 1
 tracks/8/loop_wrap = true
 tracks/8/imported = false
@@ -115,7 +116,7 @@ tracks/8/keys = {
 "values": [ Vector2( 458, 0 ), Vector2( 458, 0 ), Vector2( 458, 0 ), Vector2( 458, 0 ), Vector2( 458, 0 ) ]
 }
 tracks/9/type = "value"
-tracks/9/path = NodePath("Skeleton2D/Hip/Torso/Neck:rotation_degrees")
+tracks/9/path = NodePath("Marshall/Skeleton2D/Hip/Torso/Neck:rotation_degrees")
 tracks/9/interp = 1
 tracks/9/loop_wrap = true
 tracks/9/imported = false
@@ -132,7 +133,7 @@ resource_name = "Jump"
 length = 5.0
 loop = true
 tracks/0/type = "value"
-tracks/0/path = NodePath("Skeleton2D/Hip/Torso/ArmR:position")
+tracks/0/path = NodePath("Marshall/Skeleton2D/Hip/Torso/ArmR:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
@@ -144,7 +145,7 @@ tracks/0/keys = {
 "values": [ Vector2( 515, 188 ) ]
 }
 tracks/1/type = "value"
-tracks/1/path = NodePath("Skeleton2D/Hip/Torso/ArmR:rotation_degrees")
+tracks/1/path = NodePath("Marshall/Skeleton2D/Hip/Torso/ArmR:rotation_degrees")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/imported = false
@@ -156,7 +157,7 @@ tracks/1/keys = {
 "values": [ 9.8131 ]
 }
 tracks/2/type = "value"
-tracks/2/path = NodePath("Skeleton2D/Hip/Torso/ArmL:position")
+tracks/2/path = NodePath("Marshall/Skeleton2D/Hip/Torso/ArmL:position")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/imported = false
@@ -168,7 +169,7 @@ tracks/2/keys = {
 "values": [ Vector2( 282, 197 ) ]
 }
 tracks/3/type = "value"
-tracks/3/path = NodePath("Skeleton2D/Hip/Torso/ArmL:rotation_degrees")
+tracks/3/path = NodePath("Marshall/Skeleton2D/Hip/Torso/ArmL:rotation_degrees")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/imported = false
@@ -180,7 +181,7 @@ tracks/3/keys = {
 "values": [ 29.2672 ]
 }
 tracks/4/type = "value"
-tracks/4/path = NodePath("Skeleton2D/Hip/LegR:position")
+tracks/4/path = NodePath("Marshall/Skeleton2D/Hip/LegR:position")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/imported = false
@@ -192,7 +193,7 @@ tracks/4/keys = {
 "values": [ Vector2( 197, 228 ) ]
 }
 tracks/5/type = "value"
-tracks/5/path = NodePath("Skeleton2D/Hip/LegR:rotation_degrees")
+tracks/5/path = NodePath("Marshall/Skeleton2D/Hip/LegR:rotation_degrees")
 tracks/5/interp = 1
 tracks/5/loop_wrap = true
 tracks/5/imported = false
@@ -204,7 +205,7 @@ tracks/5/keys = {
 "values": [ 145.043 ]
 }
 tracks/6/type = "value"
-tracks/6/path = NodePath("Skeleton2D/Hip/LegL:position")
+tracks/6/path = NodePath("Marshall/Skeleton2D/Hip/LegL:position")
 tracks/6/interp = 1
 tracks/6/loop_wrap = true
 tracks/6/imported = false
@@ -216,7 +217,7 @@ tracks/6/keys = {
 "values": [ Vector2( -1.00003, 232 ) ]
 }
 tracks/7/type = "value"
-tracks/7/path = NodePath("Skeleton2D/Hip/LegL:rotation_degrees")
+tracks/7/path = NodePath("Marshall/Skeleton2D/Hip/LegL:rotation_degrees")
 tracks/7/interp = 1
 tracks/7/loop_wrap = true
 tracks/7/imported = false
@@ -228,7 +229,7 @@ tracks/7/keys = {
 "values": [ 166.06 ]
 }
 tracks/8/type = "value"
-tracks/8/path = NodePath("Skeleton2D/Hip/Torso/Neck:position")
+tracks/8/path = NodePath("Marshall/Skeleton2D/Hip/Torso/Neck:position")
 tracks/8/interp = 1
 tracks/8/loop_wrap = true
 tracks/8/imported = false
@@ -240,7 +241,7 @@ tracks/8/keys = {
 "values": [ Vector2( 458, 0 ), Vector2( 458, 0 ) ]
 }
 tracks/9/type = "value"
-tracks/9/path = NodePath("Skeleton2D/Hip/Torso/Neck:rotation_degrees")
+tracks/9/path = NodePath("Marshall/Skeleton2D/Hip/Torso/Neck:rotation_degrees")
 tracks/9/interp = 1
 tracks/9/loop_wrap = true
 tracks/9/imported = false
@@ -255,7 +256,7 @@ tracks/9/keys = {
 [sub_resource type="Animation" id=1]
 length = 0.001
 tracks/0/type = "value"
-tracks/0/path = NodePath("Skeleton2D/Hip/Torso/ArmR:position")
+tracks/0/path = NodePath("Marshall/Skeleton2D/Hip/Torso/ArmR:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
@@ -267,7 +268,7 @@ tracks/0/keys = {
 "values": [ Vector2( 515, 188 ) ]
 }
 tracks/1/type = "value"
-tracks/1/path = NodePath("Skeleton2D/Hip/Torso/ArmR:rotation_degrees")
+tracks/1/path = NodePath("Marshall/Skeleton2D/Hip/Torso/ArmR:rotation_degrees")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/imported = false
@@ -279,7 +280,7 @@ tracks/1/keys = {
 "values": [ 90.4127 ]
 }
 tracks/2/type = "value"
-tracks/2/path = NodePath("Skeleton2D/Hip/Torso/ArmL:position")
+tracks/2/path = NodePath("Marshall/Skeleton2D/Hip/Torso/ArmL:position")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/imported = false
@@ -291,7 +292,7 @@ tracks/2/keys = {
 "values": [ Vector2( 282, 197 ) ]
 }
 tracks/3/type = "value"
-tracks/3/path = NodePath("Skeleton2D/Hip/Torso/ArmL:rotation_degrees")
+tracks/3/path = NodePath("Marshall/Skeleton2D/Hip/Torso/ArmL:rotation_degrees")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/imported = false
@@ -303,7 +304,7 @@ tracks/3/keys = {
 "values": [ 90.4127 ]
 }
 tracks/4/type = "value"
-tracks/4/path = NodePath("Skeleton2D/Hip/LegR:position")
+tracks/4/path = NodePath("Marshall/Skeleton2D/Hip/LegR:position")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/imported = false
@@ -315,7 +316,7 @@ tracks/4/keys = {
 "values": [ Vector2( 197, 228 ) ]
 }
 tracks/5/type = "value"
-tracks/5/path = NodePath("Skeleton2D/Hip/LegR:rotation_degrees")
+tracks/5/path = NodePath("Marshall/Skeleton2D/Hip/LegR:rotation_degrees")
 tracks/5/interp = 1
 tracks/5/loop_wrap = true
 tracks/5/imported = false
@@ -327,7 +328,7 @@ tracks/5/keys = {
 "values": [ 90.4127 ]
 }
 tracks/6/type = "value"
-tracks/6/path = NodePath("Skeleton2D/Hip/LegL:position")
+tracks/6/path = NodePath("Marshall/Skeleton2D/Hip/LegL:position")
 tracks/6/interp = 1
 tracks/6/loop_wrap = true
 tracks/6/imported = false
@@ -339,7 +340,7 @@ tracks/6/keys = {
 "values": [ Vector2( -1.00003, 232 ) ]
 }
 tracks/7/type = "value"
-tracks/7/path = NodePath("Skeleton2D/Hip/LegL:rotation_degrees")
+tracks/7/path = NodePath("Marshall/Skeleton2D/Hip/LegL:rotation_degrees")
 tracks/7/interp = 1
 tracks/7/loop_wrap = true
 tracks/7/imported = false
@@ -351,7 +352,7 @@ tracks/7/keys = {
 "values": [ 90.4127 ]
 }
 tracks/8/type = "value"
-tracks/8/path = NodePath("Skeleton2D/Hip/Torso/Neck:position")
+tracks/8/path = NodePath("Marshall/Skeleton2D/Hip/Torso/Neck:position")
 tracks/8/interp = 1
 tracks/8/loop_wrap = true
 tracks/8/imported = false
@@ -363,7 +364,7 @@ tracks/8/keys = {
 "values": [ Vector2( 458, 0 ) ]
 }
 tracks/9/type = "value"
-tracks/9/path = NodePath("Skeleton2D/Hip/Torso/Neck:rotation_degrees")
+tracks/9/path = NodePath("Marshall/Skeleton2D/Hip/Torso/Neck:rotation_degrees")
 tracks/9/interp = 1
 tracks/9/loop_wrap = true
 tracks/9/imported = false
@@ -380,7 +381,7 @@ resource_name = "Walk"
 length = 1.8
 loop = true
 tracks/0/type = "value"
-tracks/0/path = NodePath("Skeleton2D/Hip/Torso/ArmR:position")
+tracks/0/path = NodePath("Marshall/Skeleton2D/Hip/Torso/ArmR:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/imported = false
@@ -392,7 +393,7 @@ tracks/0/keys = {
 "values": [ Vector2( 515, 188 ), Vector2( 515, 188 ), Vector2( 515, 188 ), Vector2( 515, 188 ), Vector2( 515, 188 ), Vector2( 515, 188 ), Vector2( 515, 188 ), Vector2( 515, 188 ), Vector2( 515, 188 ), Vector2( 515, 188 ) ]
 }
 tracks/1/type = "value"
-tracks/1/path = NodePath("Skeleton2D/Hip/Torso/ArmR:rotation_degrees")
+tracks/1/path = NodePath("Marshall/Skeleton2D/Hip/Torso/ArmR:rotation_degrees")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/imported = false
@@ -404,7 +405,7 @@ tracks/1/keys = {
 "values": [ 75.0075, 53.4811, 69.1496, 91.2066, 108.62, 122.825, 134.951, 115.341, 92.9814, 75.0075 ]
 }
 tracks/2/type = "value"
-tracks/2/path = NodePath("Skeleton2D/Hip/Torso/ArmL:position")
+tracks/2/path = NodePath("Marshall/Skeleton2D/Hip/Torso/ArmL:position")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/imported = false
@@ -416,7 +417,7 @@ tracks/2/keys = {
 "values": [ Vector2( 282, 197 ), Vector2( 282, 197 ), Vector2( 282, 197 ), Vector2( 282, 197 ), Vector2( 282, 197 ), Vector2( 282, 197 ), Vector2( 282, 197 ), Vector2( 282, 197 ), Vector2( 282, 197 ), Vector2( 282, 197 ) ]
 }
 tracks/3/type = "value"
-tracks/3/path = NodePath("Skeleton2D/Hip/Torso/ArmL:rotation_degrees")
+tracks/3/path = NodePath("Marshall/Skeleton2D/Hip/Torso/ArmL:rotation_degrees")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/imported = false
@@ -428,7 +429,7 @@ tracks/3/keys = {
 "values": [ 90.4129, 103.113, 122.928, 98.9149, 84.7293, 62.6884, 44.4565, 65.1478, 78.9897, 90.4129 ]
 }
 tracks/4/type = "value"
-tracks/4/path = NodePath("Skeleton2D/Hip/LegR:position")
+tracks/4/path = NodePath("Marshall/Skeleton2D/Hip/LegR:position")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/imported = false
@@ -440,7 +441,7 @@ tracks/4/keys = {
 "values": [ Vector2( 197, 228 ), Vector2( 197, 228 ), Vector2( 197, 228 ), Vector2( 197, 228 ), Vector2( 197, 228 ), Vector2( 197, 228 ), Vector2( 197, 228 ), Vector2( 197, 228 ), Vector2( 197, 228 ), Vector2( 197, 228 ) ]
 }
 tracks/5/type = "value"
-tracks/5/path = NodePath("Skeleton2D/Hip/LegR:rotation_degrees")
+tracks/5/path = NodePath("Marshall/Skeleton2D/Hip/LegR:rotation_degrees")
 tracks/5/interp = 1
 tracks/5/loop_wrap = true
 tracks/5/imported = false
@@ -452,7 +453,7 @@ tracks/5/keys = {
 "values": [ 72.8033, 58.217, 76.3285, 88.856, 102.886, 120.556, 134.482, 112.026, 92.1167, 72.8033 ]
 }
 tracks/6/type = "value"
-tracks/6/path = NodePath("Skeleton2D/Hip/LegL:position")
+tracks/6/path = NodePath("Marshall/Skeleton2D/Hip/LegL:position")
 tracks/6/interp = 1
 tracks/6/loop_wrap = true
 tracks/6/imported = false
@@ -464,7 +465,7 @@ tracks/6/keys = {
 "values": [ Vector2( -1.00003, 232 ), Vector2( -1.00003, 232 ), Vector2( -1.00003, 232 ), Vector2( -1.00003, 232 ), Vector2( -1.00003, 232 ), Vector2( -1.00003, 232 ), Vector2( -1.00003, 232 ), Vector2( -1.00003, 232 ), Vector2( -1.00003, 232 ), Vector2( -1.00003, 232 ) ]
 }
 tracks/7/type = "value"
-tracks/7/path = NodePath("Skeleton2D/Hip/LegL:rotation_degrees")
+tracks/7/path = NodePath("Marshall/Skeleton2D/Hip/LegL:rotation_degrees")
 tracks/7/interp = 1
 tracks/7/loop_wrap = true
 tracks/7/imported = false
@@ -476,7 +477,7 @@ tracks/7/keys = {
 "values": [ 90.4129, 106.361, 117.362, 98.9331, 84.7128, 62.1674, 43.2205, 65.2884, 83.2197, 90.4129 ]
 }
 tracks/8/type = "value"
-tracks/8/path = NodePath("Skeleton2D/Hip/Torso/Neck:position")
+tracks/8/path = NodePath("Marshall/Skeleton2D/Hip/Torso/Neck:position")
 tracks/8/interp = 1
 tracks/8/loop_wrap = true
 tracks/8/imported = false
@@ -488,7 +489,7 @@ tracks/8/keys = {
 "values": [ Vector2( 458, 0 ), Vector2( 458, 0 ), Vector2( 458, 0 ), Vector2( 458, 0 ), Vector2( 458, 0 ), Vector2( 458, 0 ), Vector2( 458, 0 ), Vector2( 458, 0 ), Vector2( 458, 0 ), Vector2( 458, 0 ) ]
 }
 tracks/9/type = "value"
-tracks/9/path = NodePath("Skeleton2D/Hip/Torso/Neck:rotation_degrees")
+tracks/9/path = NodePath("Marshall/Skeleton2D/Hip/Torso/Neck:rotation_degrees")
 tracks/9/interp = 1
 tracks/9/loop_wrap = true
 tracks/9/imported = false
@@ -502,97 +503,100 @@ tracks/9/keys = {
 
 [node name="Llamas" type="Node2D"]
 
-[node name="Polygons" type="Node2D" parent="."]
+[node name="Marshall" type="Node2D" parent="."]
+
+[node name="Marshall" type="Sprite" parent="Marshall"]
+modulate = Color( 1, 1, 1, 0.427451 )
+position = Vector2( -152, -477 )
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Polygons" type="Node2D" parent="Marshall"]
 position = Vector2( -898, 682 )
 
-[node name="LegL" type="Polygon2D" parent="Polygons"]
-position = Vector2( 6, -2392 )
-texture = ExtResource( 2 )
-skeleton = NodePath("../../Skeleton2D")
-polygon = PoolVector2Array( 297.386, 1986.27, 433.333, 1986.93, 433.987, 2379.08, 297.386, 2380.39 )
-uv = PoolVector2Array( 297.386, 1986.27, 433.333, 1986.93, 433.987, 2379.08, 297.386, 2380.39 )
-bones = [ "Hip", PoolRealArray( 0, 0, 0, 0 ), "Hip/Torso", PoolRealArray( 0, 0, 0, 0 ), "Hip/Torso/Neck", PoolRealArray( 0, 0, 0, 0 ), "Hip/Torso/Neck/Head", PoolRealArray( 0, 0, 0, 0 ), "Hip/Torso/ArmR", PoolRealArray( 0, 0, 0, 0 ), "Hip/Torso/ArmL", PoolRealArray( 0, 0, 0, 0 ), "Hip/LegR", PoolRealArray( 0, 0, 0, 0 ), "Hip/LegL", PoolRealArray( 1, 1, 1, 1 ) ]
+[node name="LegR" type="Polygon2D" parent="Marshall/Polygons"]
+position = Vector2( -190, -2486 )
+texture = ExtResource( 1 )
+polygon = PoolVector2Array( 1434.17, 1986.67, 1570.83, 1987.5, 1570.83, 2383.33, 1434.17, 2384.17 )
+uv = PoolVector2Array( 1434.17, 1986.67, 1570.83, 1987.5, 1570.83, 2383.33, 1434.17, 2384.17 )
 
-[node name="ArmL" type="Polygon2D" parent="Polygons"]
-position = Vector2( 5, -2393 )
-texture = ExtResource( 2 )
-skeleton = NodePath("../../Skeleton2D")
-polygon = PoolVector2Array( 1019.05, 1985.98, 1088.43, 1985.56, 1154.89, 1985.15, 1155.72, 2380.98, 1017.39, 2380.98 )
-uv = PoolVector2Array( 1019.05, 1985.98, 1088.43, 1985.56, 1154.89, 1985.15, 1155.72, 2380.98, 1017.39, 2380.98 )
-bones = [ "Hip", PoolRealArray( 0, 0, 0, 0, 0 ), "Hip/Torso", PoolRealArray( 0, 0, 0, 0, 0 ), "Hip/Torso/Neck", PoolRealArray( 0, 0, 0, 0, 0 ), "Hip/Torso/Neck/Head", PoolRealArray( 0, 0, 0, 0, 0 ), "Hip/Torso/ArmR", PoolRealArray( 0, 0, 0, 0, 0 ), "Hip/Torso/ArmL", PoolRealArray( 1, 1, 1, 1, 1 ), "Hip/LegR", PoolRealArray( 0, 0, 0, 0, 0 ), "Hip/LegL", PoolRealArray( 0, 0, 0, 0, 0 ) ]
+[node name="ArmR" type="Polygon2D" parent="Marshall/Polygons"]
+position = Vector2( -190, -2486 )
+texture = ExtResource( 1 )
+polygon = PoolVector2Array( 705.645, 1987.1, 842.742, 1987.1, 842.742, 2384.68, 706.452, 2384.68 )
+uv = PoolVector2Array( 705.645, 1987.1, 842.742, 1987.1, 842.742, 2384.68, 706.452, 2384.68 )
 
-[node name="LegR" type="Polygon2D" parent="Polygons"]
-position = Vector2( 6, -2392 )
-texture = ExtResource( 2 )
-skeleton = NodePath("../../Skeleton2D")
-polygon = PoolVector2Array( 629.412, 1985.62, 630.065, 2380.39, 493.464, 2380.39, 493.464, 1986.27 )
-uv = PoolVector2Array( 623.077, 1984.62, 629.032, 2379.84, 493.548, 2380.65, 495.161, 1985.48 )
-bones = [ "Hip", PoolRealArray( 0, 0, 0, 0 ), "Hip/Torso", PoolRealArray( 0, 0, 0, 0 ), "Hip/Torso/Neck", PoolRealArray( 0, 0, 0, 0 ), "Hip/Torso/Neck/Head", PoolRealArray( 0, 0, 0, 0 ), "Hip/Torso/ArmR", PoolRealArray( 0, 0, 0, 0 ), "Hip/Torso/ArmL", PoolRealArray( 0, 0, 0, 0 ), "Hip/LegR", PoolRealArray( 1, 1, 1, 1 ), "Hip/LegL", PoolRealArray( 0, 0, 0, 0 ) ]
+[node name="LegL" type="Polygon2D" parent="Marshall/Polygons"]
+position = Vector2( -191, -2487 )
+texture = ExtResource( 1 )
+polygon = PoolVector2Array( 1235, 1986.67, 1372.5, 1987.5, 1372.5, 2385, 1236.67, 2385 )
+uv = PoolVector2Array( 1235, 1986.67, 1372.5, 1987.5, 1372.5, 2385, 1236.67, 2385 )
 
-[node name="ArmR" type="Polygon2D" parent="Polygons"]
-position = Vector2( 6, -2392 )
-texture = ExtResource( 2 )
-skeleton = NodePath("../../Skeleton2D")
-polygon = PoolVector2Array( 1249.34, 1984.72, 1387.37, 1985.48, 1386.49, 2379.74, 1250.54, 2379.74 )
-uv = PoolVector2Array( 1249.34, 1984.72, 1387.37, 1985.48, 1386.49, 2379.74, 1250.54, 2379.74 )
-bones = [ "Hip", PoolRealArray( 0, 0, 0, 0 ), "Hip/Torso", PoolRealArray( 0, 0, 0, 0 ), "Hip/Torso/Neck", PoolRealArray( 0, 0, 0, 0 ), "Hip/Torso/Neck/Head", PoolRealArray( 0, 0, 0, 0 ), "Hip/Torso/ArmR", PoolRealArray( 1, 1, 1, 1 ), "Hip/Torso/ArmL", PoolRealArray( 0, 0, 0, 0 ), "Hip/LegR", PoolRealArray( 0, 0, 0, 0 ), "Hip/LegL", PoolRealArray( 0, 0, 0, 0 ) ]
+[node name="ArmL" type="Polygon2D" parent="Marshall/Polygons"]
+position = Vector2( -190, -2487 )
+texture = ExtResource( 1 )
+polygon = PoolVector2Array( 470.161, 1987.1, 608.064, 1987.9, 608.871, 2383.87, 470.968, 2384.68 )
+uv = PoolVector2Array( 470.161, 1987.1, 608.064, 1987.9, 608.871, 2383.87, 470.968, 2384.68 )
 
-[node name="Body" type="Polygon2D" parent="Polygons"]
-position = Vector2( 7, -2114 )
-texture = ExtResource( 2 )
-skeleton = NodePath("../../Skeleton2D")
-polygon = PoolVector2Array( 1424.03, 341.804, 1853, 341.804, 1853.36, 705.055, 1543.28, 706.431, 1560.78, 735.101, 1573.2, 778.239, 1570.59, 803.075, 1563.4, 827.258, 1550.33, 846.866, 1520.39, 855.363, 1534.9, 869.088, 1547.45, 887.128, 1555.29, 910.657, 1561.18, 934.971, 1560.39, 966.343, 1553.73, 988.304, 1543.53, 1003.6, 1533.73, 1015.36, 1541.96, 1032.62, 1546.27, 1050.66, 1549.8, 1069.87, 1546.41, 1094.58, 1540.52, 1107, 1530.72, 1118.11, 1523.53, 1127.52, 1511.76, 1133.4, 1527.06, 1146.34, 1537.26, 1167.91, 1545.49, 1199.28, 1546.67, 1217.32, 1540.52, 1234.45, 1532.68, 1244.25, 1517.26, 1251.44, 1527.45, 1267.52, 1537.91, 1286.74, 1541.96, 1302.03, 1545.49, 1322.03, 1543.92, 1336.54, 2466.67, 1336.41, 2432.68, 1358.63, 2384.97, 1380.85, 2299.35, 1412.88, 2143.14, 1457.32, 1943.79, 1495.89, 1722.88, 1520.07, 1542.17, 1526.98, 1538.7, 1538.72, 1530.87, 1555.24, 1519.57, 1566.11, 1507.39, 1571.33, 1496.09, 1577.85, 1484.78, 1582.2, 1488.89, 1594.58, 1494.77, 1613.53, 1497.39, 1631.77, 1494.77, 1651.44, 1485.62, 1670.4, 1475.82, 1680.2, 1463.4, 1690, 1445.22, 1693.94, 1429.13, 1697.85, 1416.99, 1700.46, 1413.07, 1718.76, 1408.5, 1735.1, 1402.61, 1747.85, 1392.61, 1759.59, 1383.01, 1765.82, 1368.26, 1769.59, 1351.3, 1773.07, 1336.52, 1773.94, 1321.74, 1771.77, 1309.57, 1768.29, 1298.7, 1764.37, 1291.3, 1760.46, 1281.74, 1754.37, 1270.43, 1747.85, 1264.78, 1754.81, 1251.74, 1763.5, 1240, 1771.77, 1226.52, 1777.85, 1204.78, 1784.81, 1185.22, 1787.85, 1164.35, 1788.29, 1149.02, 1784.12, 1138.56, 1778.89, 1119.57, 1763.5, 1109.8, 1750.13, 1074.35, 1764.81, 1054.78, 1771.33, 1036.52, 1774.81, 1014.35, 1775.24, 998.039, 1771.05, 966.667, 1759.94, 956.209, 1754.71, 941.177, 1746.21, 931.373, 1737.72, 916.957, 1725.68, 904.783, 1736.98, 893.478, 1745.68, 884.348, 1751.33, 867.391, 1759.16, 843.478, 1762.2, 824.348, 1762.2, 807.826, 1761.33, 786.522, 1755.68, 771.895, 1746.87, 760.784, 1737.06, 749.02, 1726.6, 741.83, 1720.72, 731.373, 1712.88, 720.435, 1730.9, 703.913, 1743.07, 685.217, 1752.63, 662.745, 1755.36, 636.522, 1753.94, 614.348, 1746.55, 596.957, 1738.29, 583.66, 1729.87, 575.163, 1724.64, 561.438, 1733.79, 550, 1742.2, 536.087, 1749.59, 522.609, 1753.94, 507.391, 1756.98, 492.174, 1757.85, 474.348, 1757.85, 459.13, 1754.81, 446.957, 1749.59, 434.348, 1741.33, 422.222, 1730.53, 416.34, 1723.34, 411.111, 1717.45, 396.522, 1725.68, 385.217, 1733.5, 366.087, 1741.33, 346.087, 1745.68, 318.696, 1747.42, 298.696, 1743.94, 284.314, 1734.45, 276.522, 1727.85, 268.261, 1715.68, 257.826, 1697.42, 253.043, 1687.42, 253.595, 1678.24, 239.565, 1673.07, 227.451, 1666.47, 212.418, 1660.59, 201.307, 1651.44, 194.118, 1643.6, 184.348, 1630.03, 180.392, 1618.11, 175.817, 1601.77, 176.471, 1582.16, 177.778, 1574.97, 186.928, 1552.09, 191.304, 1540.9, 198.696, 1532.63, 187.826, 1523.07, 182.174, 1514.81, 176.522, 1506.11, 172.549, 1496.54, 169.281, 1484.77, 167.32, 1476.28, 164.783, 1454.81, 168.627, 1437.72, 177.391, 1421.33, 190, 1412.63, 200, 1403.94, 189.565, 1396.98, 182.174, 1389.59, 175.217, 1377.85, 168.261, 1362.63, 166.957, 1350.9, 167.391, 1333.94, 173.478, 1317.42, 176.087, 1308.29, 182.609, 1297.42, 190.435, 1288.29, 193.913, 1278.72, 181.046, 1276.28, 164.783, 1281.33, 153.595, 1289.35, 141.176, 1305.69, 130.065, 1314.19, 112.418, 1321.38, 96.0784, 1325.95, 76.9565, 1330.03, 62.1739, 1331.77, 45.6522, 1330.03, 37.2549, 1323.99, 28.6956, 1310.9, 25.6522, 1300.46, 26.5217, 1280.9, 28.2609, 1269.59, 33.913, 1252.2, 19.6078, 1243.6, 9.80392, 1234.45, 1.73914, 1225.68, -4.34782, 1213.5, -5.88235, 1199.15, -2.61438, 1184.12, 1.96078, 1175.62, 8.49673, 1169.09, 23.4783, 1157.85, 13.913, 1149.16, 7.82608, 1139.16, 5.22876, 1129.22, 5.22876, 1114.19, 7.18954, 1105.04, 11.7391, 1090.9, 22.6087, 1080.03, 37.9085, 1075.62, 52.2876, 1074.97, 67.3203, 1074.97, 77.1242, 1078.89, 90.1961, 1083.47, 108.261, 1091.33, 121.304, 1097.85, 134.641, 1106.34, 140.523, 1111.57, 151.304, 1120.9, 162.174, 1131.33, 170.588, 1139.68, 178.261, 1145.24, 190.196, 1152.75, 201.961, 1158.63, 215.033, 1163.21, 230, 1165.24, 237.391, 1154.81, 244.348, 1145.68, 253.913, 1139.59, 266.957, 1132.2, 280, 1128.72, 291.739, 1127.42, 309.13, 1127.85, 330.719, 1131.83, 338.562, 1133.79, 350.98, 1137.06, 365.36, 1143.6, 379.13, 1133.94, 395.652, 1124.81, 409.15, 1122.68, 424.183, 1121.38, 435.948, 1121.38, 450.435, 1123.94, 459.565, 1128.29, 469.13, 1134.37, 478.696, 1140.9, 497.391, 1130.46, 506.957, 1125.68, 519.13, 1119.16, 535.652, 1116.11, 551.304, 1117.42, 568.261, 1120.03, 580.392, 1125.3, 595.425, 1135.1, 607.19, 1144.91, 613.478, 1150.46, 626.144, 1135.1, 632.68, 1129.87, 638.562, 1123.99, 647.712, 1119.42, 660.131, 1116.8, 674.51, 1116.8, 682.353, 1118.11, 698.693, 1123.99, 712.418, 1130.53, 722.876, 1142.29, 726.797, 1146.87, 733.333, 1155.36, 741.83, 1153.4, 752.941, 1144.91, 762.174, 1136.55, 772.174, 1129.16, 782.174, 1125.24, 791.739, 1123.94, 800.87, 1123.94, 810.87, 1124.81, 826.522, 1128.29, 838.261, 1132.63, 846.522, 1137.85, 853.478, 1142.63, 859.13, 1150.03, 868.627, 1139.68, 883.66, 1130.53, 896.732, 1125.3, 910.458, 1123.99, 920.261, 1123.99, 933.987, 1125.95, 953.913, 1134.81, 948.696, 1122.63, 944.444, 1111.57, 940.523, 1098.5, 939.13, 1083.94, 942.174, 1068.72, 947.391, 1060.03, 955.217, 1050.46, 962.174, 1043.5, 970.87, 1039.59, 959.565, 1033.5, 949.13, 1026.55, 941.739, 1016.98, 937.391, 1011.33, 934.348, 1004.81, 929.565, 992.2, 927.391, 978.722, 926.522, 966.983, 929.565, 953.07, 936.522, 934.809, 944.444, 919.415, 950.327, 911.572, 955.556, 905.036, 947.059, 889.35, 944.348, 877.852, 942.609, 865.678, 944.783, 854.809, 948.696, 843.07, 953.044, 831.33, 960, 818.287, 968.696, 808.722, 976.957, 799.156, 969.565, 793.504, 963.043, 788.287, 956.957, 781.33, 949.565, 769.591, 947.391, 761.33, 943.478, 752.2, 941.177, 740.33, 938.562, 720.722, 937.391, 708.722, 939.13, 697.852, 943.137, 684.775, 947.712, 674.971, 955.556, 664.513, 961.438, 657.324, 965.652, 651.33, 953.913, 645.678, 945.652, 639.156, 940, 631.33, 935.217, 620.461, 933.913, 603.07, 935.652, 589.591, 940.87, 575.244, 943.913, 566.983, 948.696, 558.722, 953.872, 549.859, 961.953, 539.758, 952.862, 536.222, 945.286, 529.151, 939.226, 521.576, 933.67, 514, 929.125, 504.404, 924.074, 493.293, 923.064, 480.667, 921.549, 469.556, 923.064, 454.404, 925.589, 440.263, 928.62, 426.626, 933.165, 416.02, 938.721, 406.929, 944.276, 397.333, 949.832, 391.273, 955.387, 385.717, 948.955, 376.119, 944.478, 361.791, 940.299, 344.179, 942.09, 328.657, 945.075, 317.313, 952.537, 306.866, 959.701, 298.507, 975.821, 289.851, 956.716, 288.955, 837.612, 297.612, 861.791, 286.866, 873.433, 282.985, 883.582, 279.403, 894.925, 274.925, 905.075, 271.343, 913.433, 268.06, 921.493, 264.478, 931.94, 260.597, 942.388, 256.119, 955.821, 250.448, 963.582, 246.269, 971.896, 242.291, 982.09, 237.313, 991.94, 231.343, 1000.65, 224.644, 1000, 212.226, 1000, 174.971, 1000.65, 138.369, 1001.96, 95.2321, 1008.26, 62.6348, 1016.96, 38.2869, 1028.7, 18.7217, 1047.06, 8.95757, 1059.48, 3.72881, 1075.16, 3.07521, 1088.89, 4.3824, 1101.96, 12.2255, 1117.83, 23.0695, 1126.09, 30.8956, 1134.35, 39.1565, 1138.56, 23.9902, 1144.44, 16.1471, 1153.59, 9.61116, 1162.75, 3.07521, 1172.55, -0.846359, 1180.39, -3.46074, 1197.39, -4.11433, 1201.31, -4.11433, 1213.07, -2.15355, 1226.14, 5.036, 1235.29, 14.1863, 1241.83, 22.6831, 1252.94, 37.0621, 1259.57, 52.6347, 1266.01, 74.9706, 1267.97, 88.6961, 1270.59, 98.5001, 1275.82, 84.7746, 1278.43, 73.6635, 1282.35, 61.2451, 1284.97, 50.134, 1292.81, 33.1406, 1297.39, 27.9118, 1304.58, 23.3367, 1313.07, 22.6831, 1321.57, 22.6831, 1332.68, 26.6046, 1336.75, 32.6163, 1341.34, 45.3372, 1349.47, 64.4184, 1355.48, 82.4396, 1360.78, 96.5739, 1366.43, 112.828, 1370.59, 128.565, 1377.12, 155.363, 1381.98, 172.546, 1385.51, 189.86, 1388.69, 209.295, 1392.81, 220.069, 1478.45, 237.563, 1401.31, 241.637, 1407.42, 246.397, 1414.84, 252.051, 1419.43, 258.058, 1422.97, 262.652, 1425.44, 266.892, 1426.86, 273.959, 1428.98, 283.5, 1430.72, 293.271, 1430.07, 300.461, 1429.41, 312.879, 1428.1, 323.99 )
-uv = PoolVector2Array( 1424.03, 341.804, 1853, 341.804, 1853.36, 705.055, 1543.28, 706.431, 1560.78, 735.101, 1573.2, 778.239, 1570.59, 803.075, 1563.4, 827.258, 1550.33, 846.866, 1520.39, 855.363, 1534.9, 869.088, 1547.45, 887.128, 1555.29, 910.657, 1561.18, 934.971, 1560.39, 966.343, 1553.73, 988.304, 1543.53, 1003.6, 1533.73, 1015.36, 1541.96, 1032.62, 1546.27, 1050.66, 1549.8, 1069.87, 1546.41, 1094.58, 1540.52, 1107, 1530.72, 1118.11, 1523.53, 1127.52, 1511.76, 1133.4, 1527.06, 1146.34, 1537.26, 1167.91, 1545.49, 1199.28, 1546.67, 1217.32, 1540.52, 1234.45, 1532.68, 1244.25, 1517.26, 1251.44, 1527.45, 1267.52, 1537.91, 1286.74, 1541.96, 1302.03, 1545.49, 1322.03, 1543.92, 1336.54, 2466.67, 1336.41, 2432.68, 1358.63, 2384.97, 1380.85, 2299.35, 1412.88, 2143.14, 1457.32, 1943.79, 1495.89, 1722.88, 1520.07, 1542.17, 1526.98, 1538.7, 1538.72, 1530.87, 1555.24, 1519.57, 1566.11, 1507.39, 1571.33, 1496.09, 1577.85, 1484.78, 1582.2, 1488.89, 1594.58, 1494.77, 1613.53, 1497.39, 1631.77, 1494.77, 1651.44, 1485.62, 1670.4, 1475.82, 1680.2, 1463.4, 1690, 1445.22, 1693.94, 1429.13, 1697.85, 1416.99, 1700.46, 1413.07, 1718.76, 1408.5, 1735.1, 1402.61, 1747.85, 1392.61, 1759.59, 1383.01, 1765.82, 1368.26, 1769.59, 1351.3, 1773.07, 1336.52, 1773.94, 1321.74, 1771.77, 1309.57, 1768.29, 1298.7, 1764.37, 1291.3, 1760.46, 1281.74, 1754.37, 1270.43, 1747.85, 1264.78, 1754.81, 1251.74, 1763.5, 1240, 1771.77, 1226.52, 1777.85, 1204.78, 1784.81, 1185.22, 1787.85, 1164.35, 1788.29, 1149.02, 1784.12, 1138.56, 1778.89, 1119.57, 1763.5, 1109.8, 1750.13, 1074.35, 1764.81, 1054.78, 1771.33, 1036.52, 1774.81, 1014.35, 1775.24, 998.039, 1771.05, 966.667, 1759.94, 956.209, 1754.71, 941.177, 1746.21, 931.373, 1737.72, 916.957, 1725.68, 904.783, 1736.98, 893.478, 1745.68, 884.348, 1751.33, 867.391, 1759.16, 843.478, 1762.2, 824.348, 1762.2, 807.826, 1761.33, 786.522, 1755.68, 771.895, 1746.87, 760.784, 1737.06, 749.02, 1726.6, 741.83, 1720.72, 731.373, 1712.88, 720.435, 1730.9, 703.913, 1743.07, 685.217, 1752.63, 662.745, 1755.36, 636.522, 1753.94, 614.348, 1746.55, 596.957, 1738.29, 583.66, 1729.87, 575.163, 1724.64, 561.438, 1733.79, 550, 1742.2, 536.087, 1749.59, 522.609, 1753.94, 507.391, 1756.98, 492.174, 1757.85, 474.348, 1757.85, 459.13, 1754.81, 446.957, 1749.59, 434.348, 1741.33, 422.222, 1730.53, 416.34, 1723.34, 411.111, 1717.45, 396.522, 1725.68, 385.217, 1733.5, 366.087, 1741.33, 346.087, 1745.68, 318.696, 1747.42, 298.696, 1743.94, 284.314, 1734.45, 276.522, 1727.85, 268.261, 1715.68, 257.826, 1697.42, 253.043, 1687.42, 253.595, 1678.24, 239.565, 1673.07, 227.451, 1666.47, 212.418, 1660.59, 201.307, 1651.44, 194.118, 1643.6, 184.348, 1630.03, 180.392, 1618.11, 175.817, 1601.77, 176.471, 1582.16, 177.778, 1574.97, 186.928, 1552.09, 191.304, 1540.9, 198.696, 1532.63, 187.826, 1523.07, 182.174, 1514.81, 176.522, 1506.11, 172.549, 1496.54, 169.281, 1484.77, 167.32, 1476.28, 164.783, 1454.81, 168.627, 1437.72, 177.391, 1421.33, 190, 1412.63, 200, 1403.94, 189.565, 1396.98, 182.174, 1389.59, 175.217, 1377.85, 168.261, 1362.63, 166.957, 1350.9, 167.391, 1333.94, 173.478, 1317.42, 176.087, 1308.29, 182.609, 1297.42, 190.435, 1288.29, 193.913, 1278.72, 181.046, 1276.28, 164.783, 1281.33, 153.595, 1289.35, 141.176, 1305.69, 130.065, 1314.19, 112.418, 1321.38, 96.0784, 1325.95, 76.9565, 1330.03, 62.1739, 1331.77, 45.6522, 1330.03, 37.2549, 1323.99, 28.6956, 1310.9, 25.6522, 1300.46, 26.5217, 1280.9, 28.2609, 1269.59, 33.913, 1252.2, 19.6078, 1243.6, 9.80392, 1234.45, 1.73914, 1225.68, -4.34782, 1213.5, -5.88235, 1199.15, -2.61438, 1184.12, 1.96078, 1175.62, 8.49673, 1169.09, 23.4783, 1157.85, 13.913, 1149.16, 7.82608, 1139.16, 5.22876, 1129.22, 5.22876, 1114.19, 7.18954, 1105.04, 11.7391, 1090.9, 22.6087, 1080.03, 37.9085, 1075.62, 52.2876, 1074.97, 67.3203, 1074.97, 77.1242, 1078.89, 90.1961, 1083.47, 108.261, 1091.33, 121.304, 1097.85, 134.641, 1106.34, 140.523, 1111.57, 151.304, 1120.9, 162.174, 1131.33, 170.588, 1139.68, 178.261, 1145.24, 190.196, 1152.75, 201.961, 1158.63, 215.033, 1163.21, 230, 1165.24, 237.391, 1154.81, 244.348, 1145.68, 253.913, 1139.59, 266.957, 1132.2, 280, 1128.72, 291.739, 1127.42, 309.13, 1127.85, 330.719, 1131.83, 338.562, 1133.79, 350.98, 1137.06, 365.36, 1143.6, 379.13, 1133.94, 395.652, 1124.81, 409.15, 1122.68, 424.183, 1121.38, 435.948, 1121.38, 450.435, 1123.94, 459.565, 1128.29, 469.13, 1134.37, 478.696, 1140.9, 497.391, 1130.46, 506.957, 1125.68, 519.13, 1119.16, 535.652, 1116.11, 551.304, 1117.42, 568.261, 1120.03, 580.392, 1125.3, 595.425, 1135.1, 607.19, 1144.91, 613.478, 1150.46, 626.144, 1135.1, 632.68, 1129.87, 638.562, 1123.99, 647.712, 1119.42, 660.131, 1116.8, 674.51, 1116.8, 682.353, 1118.11, 698.693, 1123.99, 712.418, 1130.53, 722.876, 1142.29, 726.797, 1146.87, 733.333, 1155.36, 741.83, 1153.4, 752.941, 1144.91, 762.174, 1136.55, 772.174, 1129.16, 782.174, 1125.24, 791.739, 1123.94, 800.87, 1123.94, 810.87, 1124.81, 826.522, 1128.29, 838.261, 1132.63, 846.522, 1137.85, 853.478, 1142.63, 859.13, 1150.03, 868.627, 1139.68, 883.66, 1130.53, 896.732, 1125.3, 910.458, 1123.99, 920.261, 1123.99, 933.987, 1125.95, 953.913, 1134.81, 948.696, 1122.63, 944.444, 1111.57, 940.523, 1098.5, 939.13, 1083.94, 942.174, 1068.72, 947.391, 1060.03, 955.217, 1050.46, 962.174, 1043.5, 970.87, 1039.59, 959.565, 1033.5, 949.13, 1026.55, 941.739, 1016.98, 937.391, 1011.33, 934.348, 1004.81, 929.565, 992.2, 927.391, 978.722, 926.522, 966.983, 929.565, 953.07, 936.522, 934.809, 944.444, 919.415, 950.327, 911.572, 955.556, 905.036, 947.059, 889.35, 944.348, 877.852, 942.609, 865.678, 944.783, 854.809, 948.696, 843.07, 953.044, 831.33, 960, 818.287, 968.696, 808.722, 976.957, 799.156, 969.565, 793.504, 963.043, 788.287, 956.957, 781.33, 949.565, 769.591, 947.391, 761.33, 943.478, 752.2, 941.177, 740.33, 938.562, 720.722, 937.391, 708.722, 939.13, 697.852, 943.137, 684.775, 947.712, 674.971, 955.556, 664.513, 961.438, 657.324, 965.652, 651.33, 953.913, 645.678, 945.652, 639.156, 940, 631.33, 935.217, 620.461, 933.913, 603.07, 935.652, 589.591, 940.87, 575.244, 943.913, 566.983, 948.696, 558.722, 953.872, 549.859, 961.953, 539.758, 952.862, 536.222, 945.286, 529.151, 939.226, 521.576, 933.67, 514, 929.125, 504.404, 924.074, 493.293, 923.064, 480.667, 921.549, 469.556, 923.064, 454.404, 925.589, 440.263, 928.62, 426.626, 933.165, 416.02, 938.721, 406.929, 944.276, 397.333, 949.832, 391.273, 955.387, 385.717, 948.955, 376.119, 944.478, 361.791, 940.299, 344.179, 942.09, 328.657, 945.075, 317.313, 952.537, 306.866, 959.701, 298.507, 975.821, 289.851, 956.716, 288.955, 837.612, 297.612, 861.791, 286.866, 873.433, 282.985, 883.582, 279.403, 894.925, 274.925, 905.075, 271.343, 913.433, 268.06, 921.493, 264.478, 931.94, 260.597, 942.388, 256.119, 955.821, 250.448, 963.582, 246.269, 971.896, 242.291, 982.09, 237.313, 991.94, 231.343, 1000.65, 224.644, 1000, 212.226, 1000, 174.971, 1000.65, 138.369, 1001.96, 95.2321, 1008.26, 62.6348, 1016.96, 38.2869, 1028.7, 18.7217, 1047.06, 8.95757, 1059.48, 3.72881, 1075.16, 3.07521, 1088.89, 4.3824, 1101.96, 12.2255, 1117.83, 23.0695, 1126.09, 30.8956, 1134.35, 39.1565, 1138.56, 23.9902, 1144.44, 16.1471, 1153.59, 9.61116, 1162.75, 3.07521, 1172.55, -0.846359, 1180.39, -3.46074, 1197.39, -4.11433, 1201.31, -4.11433, 1213.07, -2.15355, 1226.14, 5.036, 1235.29, 14.1863, 1241.83, 22.6831, 1252.94, 37.0621, 1259.57, 52.6347, 1266.01, 74.9706, 1267.97, 88.6961, 1270.59, 98.5001, 1275.82, 84.7746, 1278.43, 73.6635, 1282.35, 61.2451, 1284.97, 50.134, 1292.81, 33.1406, 1297.39, 27.9118, 1304.58, 23.3367, 1313.07, 22.6831, 1321.57, 22.6831, 1332.68, 26.6046, 1336.75, 32.6163, 1341.34, 45.3372, 1349.47, 64.4184, 1355.48, 82.4396, 1360.78, 96.5739, 1366.43, 112.828, 1370.59, 128.565, 1377.12, 155.363, 1381.98, 172.546, 1385.51, 189.86, 1388.69, 209.295, 1392.81, 220.069, 1478.45, 237.563, 1401.31, 241.637, 1407.42, 246.397, 1414.84, 252.051, 1419.43, 258.058, 1422.97, 262.652, 1425.44, 266.892, 1426.86, 273.959, 1428.98, 283.5, 1430.72, 293.271, 1430.07, 300.461, 1429.41, 312.879, 1428.1, 323.99 )
-bones = [ "Hip", PoolRealArray( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ), "Hip/Torso", PoolRealArray( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ), "Hip/Torso/Neck", PoolRealArray( 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ), "Hip/Torso/Neck/Head", PoolRealArray( 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ), "Hip/Torso/ArmR", PoolRealArray( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ), "Hip/Torso/ArmL", PoolRealArray( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ), "Hip/LegR", PoolRealArray( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ), "Hip/LegL", PoolRealArray( 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ) ]
+[node name="Body" type="Polygon2D" parent="Marshall/Polygons"]
+position = Vector2( -190, -2217 )
+texture = ExtResource( 1 )
+polygon = PoolVector2Array( -1.21948, 335.366, 0, 704.878, 310.976, 703.659, 292.353, 726.471, 287.059, 738.235, 277.059, 757.647, 276.471, 779.412, 275.294, 797.059, 283.529, 822.353, 293.529, 837.647, 301.176, 847.647, 312.353, 857.647, 326.471, 861.176, 308.824, 877.059, 296.471, 895.882, 287.647, 918.823, 282.941, 943.529, 280, 964.706, 282.941, 982.941, 291.765, 1003.53, 303.529, 1015.88, 315.323, 1023.39, 306.471, 1042.35, 298.235, 1064.12, 297.647, 1090, 306.471, 1111.18, 315.882, 1127.65, 332.353, 1139.41, 314.118, 1162.35, 298.387, 1196.77, 293.548, 1216.94, 296.774, 1235.48, 306.452, 1247.58, 322.581, 1256.45, 314.706, 1274.71, 302.941, 1298.82, 299.194, 1320.97, 295.968, 1346.77, 296.774, 1368.55, 306.452, 1391.94, 316.129, 1412.9, 334.118, 1435.88, 320, 1458.82, 309.412, 1480, 300, 1500.59, 297.647, 1528.24, 304.706, 1550, 315.323, 1565.32, 328.226, 1575, 341.129, 1583.06, 360.588, 1593.53, 354.118, 1611.18, 350, 1625.88, 346.471, 1641.76, 347.059, 1658.82, 354.118, 1677.06, 368.824, 1696.47, 385.294, 1704.12, 408.824, 1710.59, 430.588, 1718.24, 432.941, 1734.71, 438.235, 1751.18, 447.059, 1768.24, 462.941, 1781.76, 485.484, 1791.94, 507.258, 1794.35, 520.968, 1794.35, 541.935, 1790.32, 565.323, 1780.65, 585.294, 1772.94, 600, 1784.71, 615.294, 1795.88, 631.176, 1801.18, 650.806, 1805.65, 675.806, 1808.06, 691.129, 1808.06, 713.529, 1807.65, 732.353, 1798.82, 745.161, 1783.06, 755.294, 1773.53, 778.235, 1784.71, 802.353, 1790.59, 834.118, 1793.53, 855.645, 1791.13, 875, 1789.52, 910, 1773.53, 934.118, 1757.06, 945.882, 1746.47, 961.176, 1760.59, 995.882, 1775.29, 1018.24, 1782.94, 1039.41, 1784.71, 1058.24, 1782.94, 1079.84, 1775.81, 1103.23, 1764.52, 1119.41, 1755.29, 1130, 1744.71, 1146.77, 1762.9, 1164.12, 1771.76, 1186.47, 1777.06, 1207.65, 1778.82, 1230, 1778.82, 1254.12, 1774.71, 1268.82, 1764.12, 1289.41, 1750, 1310, 1762.94, 1332.35, 1770, 1358.24, 1777.65, 1380, 1777.65, 1404.12, 1775.29, 1432.35, 1770, 1454.03, 1755.65, 1463.71, 1738.71, 1483.53, 1752.35, 1508.24, 1761.76, 1532.35, 1768.82, 1552.35, 1768.82, 1572.94, 1764.71, 1592.35, 1758.24, 1607.06, 1747.65, 1617.06, 1734.71, 1622.94, 1714.12, 1627.06, 1691.18, 1654.03, 1684.68, 1672.58, 1673.39, 1691.13, 1650, 1698.39, 1637.9, 1704.84, 1612.9, 1705.65, 1594.35, 1701.76, 1571.18, 1692.35, 1553.53, 1684.68, 1536.29, 1701.18, 1518.24, 1709.41, 1498.82, 1712.35, 1478.82, 1712.94, 1455.29, 1704.84, 1433.06, 1694.35, 1416.94, 1689.41, 1406.47, 1707.06, 1390, 1715.29, 1371.76, 1714.52, 1354.03, 1713.71, 1337.9, 1707.26, 1314.52, 1733.87, 1328.23, 1748.82, 1337.06, 1765.32, 1345.16, 1787.1, 1349.19, 1804.84, 1349.19, 1824.12, 1348.24, 1845.88, 1335.88, 1856.47, 1312.94, 1855.88, 1290.59, 1850, 1262.94, 1872.94, 1247.06, 1891.94, 1227.42, 1895.97, 1205.65, 1892.74, 1187.1, 1877.42, 1169.35, 1866.94, 1160.48, 1876.61, 1145.16, 1877.42, 1123.39, 1878.23, 1108.87, 1877.42, 1093.55, 1870, 1079.41, 1851.76, 1067.06, 1825.29, 1067.06, 1792.35, 1070.59, 1770.59, 1077.06, 1744.71, 1091.18, 1728.24, 1105.29, 1698.24, 1127.65, 1680.59, 1140, 1660.48, 1151.61, 1642.94, 1153.53, 1620.59, 1130.59, 1597.65, 1120.59, 1566.47, 1117.06, 1542.35, 1120, 1509.41, 1132.35, 1480, 1116.47, 1453.53, 1110, 1422.58, 1112.9, 1390.59, 1131.76, 1364.12, 1115.29, 1342.94, 1109.41, 1308.24, 1107.06, 1286.47, 1110, 1269.35, 1122.58, 1254.12, 1134.12, 1225.49, 1103.92, 1196.08, 1099.35, 1167.97, 1101.96, 1144.44, 1117.65, 1130.72, 1137.25, 1113.07, 1115.03, 1088.24, 1107.84, 1063.4, 1105.88, 1043.79, 1110.46, 1026.14, 1117.65, 1003.92, 1131.37, 983.66, 1119.61, 964.706, 1111.76, 934.677, 1113.71, 941.935, 1100.81, 943.548, 1073.39, 935.484, 1052.42, 923.387, 1040.32, 941.83, 1013.73, 954.248, 984.314, 949.02, 951.634, 940.523, 930.065, 929.032, 907.258, 928.105, 888.889, 929.412, 869.281, 931.373, 848.366, 927.451, 830.719, 916.34, 815.033, 907.19, 800, 919.608, 784.314, 931.372, 770.588, 942.484, 749.02, 946.774, 726.613, 944.355, 700.806, 930.645, 675, 918.548, 662.903, 935.948, 643.791, 943.791, 626.144, 946.405, 604.575, 943.137, 582.353, 935.948, 564.052, 918.301, 544.444, 926.144, 524.183, 937.903, 501.613, 944.355, 484.677, 951.613, 457.258, 946.405, 422.876, 931.372, 401.307, 917.647, 387.582, 920.261, 366.667, 925, 344.355, 926.613, 322.581, 920.968, 306.452, 903.226, 282.258, 890.323, 271.774, 877.778, 264.706, 875.817, 252.288, 879.085, 232.68, 875.817, 209.804, 872.549, 190.196, 866.013, 162.745, 861.29, 139.516, 852.419, 104.839, 842.742, 73.3871, 827.451, 24.183, 813.726, -6.53595, 793.464, -22.2222, 766.667, -19.6078, 747.581, -1.6129, 737.097, 19.3548, 725.806, 42.7419, 709.677, 77.4193, 699.193, 113.71, 691.935, 139.516, 685.621, 158.824, 667.974, 169.281, 650.327, 186.274, 639.216, 170.588, 628.758, 155.556, 616.129, 127.419, 599.346, 81.0457, 582.353, 31.3725, 567.32, 3.26797, 542.484, -5.88235, 518.301, -4.57516, 504.255, 16.3121, 494.118, 45.7516, 487.097, 75.8065, 479.739, 112.418, 469.935, 149.02, 458.824, 190.85, 448.936, 220.567, 424.823, 236.17, 410.638, 261.702, 403.546, 289.362, 402.837, 314.894, 408.064, 335.484 )
+uv = PoolVector2Array( -1.21948, 335.366, 0, 704.878, 310.976, 703.659, 292.353, 726.471, 287.059, 738.235, 277.059, 757.647, 276.471, 779.412, 275.294, 797.059, 283.529, 822.353, 293.529, 837.647, 301.176, 847.647, 312.353, 857.647, 326.471, 861.176, 308.824, 877.059, 296.471, 895.882, 287.647, 918.823, 282.941, 943.529, 280, 964.706, 282.941, 982.941, 291.765, 1003.53, 303.529, 1015.88, 315.323, 1023.39, 306.471, 1042.35, 298.235, 1064.12, 297.647, 1090, 306.471, 1111.18, 315.882, 1127.65, 332.353, 1139.41, 314.118, 1162.35, 298.387, 1196.77, 293.548, 1216.94, 296.774, 1235.48, 306.452, 1247.58, 322.581, 1256.45, 314.706, 1274.71, 302.941, 1298.82, 299.194, 1320.97, 295.968, 1346.77, 296.774, 1368.55, 306.452, 1391.94, 316.129, 1412.9, 334.118, 1435.88, 320, 1458.82, 309.412, 1480, 300, 1500.59, 297.647, 1528.24, 304.706, 1550, 315.323, 1565.32, 328.226, 1575, 341.129, 1583.06, 360.588, 1593.53, 354.118, 1611.18, 350, 1625.88, 346.471, 1641.76, 347.059, 1658.82, 354.118, 1677.06, 368.824, 1696.47, 385.294, 1704.12, 408.824, 1710.59, 430.588, 1718.24, 432.941, 1734.71, 438.235, 1751.18, 447.059, 1768.24, 462.941, 1781.76, 485.484, 1791.94, 507.258, 1794.35, 520.968, 1794.35, 541.935, 1790.32, 565.323, 1780.65, 585.294, 1772.94, 600, 1784.71, 615.294, 1795.88, 631.176, 1801.18, 650.806, 1805.65, 675.806, 1808.06, 691.129, 1808.06, 713.529, 1807.65, 732.353, 1798.82, 745.161, 1783.06, 755.294, 1773.53, 778.235, 1784.71, 802.353, 1790.59, 834.118, 1793.53, 855.645, 1791.13, 875, 1789.52, 910, 1773.53, 934.118, 1757.06, 945.882, 1746.47, 961.176, 1760.59, 995.882, 1775.29, 1018.24, 1782.94, 1039.41, 1784.71, 1058.24, 1782.94, 1079.84, 1775.81, 1103.23, 1764.52, 1119.41, 1755.29, 1130, 1744.71, 1146.77, 1762.9, 1164.12, 1771.76, 1186.47, 1777.06, 1207.65, 1778.82, 1230, 1778.82, 1254.12, 1774.71, 1268.82, 1764.12, 1289.41, 1750, 1310, 1762.94, 1332.35, 1770, 1358.24, 1777.65, 1380, 1777.65, 1404.12, 1775.29, 1432.35, 1770, 1454.03, 1755.65, 1463.71, 1738.71, 1483.53, 1752.35, 1508.24, 1761.76, 1532.35, 1768.82, 1552.35, 1768.82, 1572.94, 1764.71, 1592.35, 1758.24, 1607.06, 1747.65, 1617.06, 1734.71, 1622.94, 1714.12, 1627.06, 1691.18, 1654.03, 1684.68, 1672.58, 1673.39, 1691.13, 1650, 1698.39, 1637.9, 1704.84, 1612.9, 1705.65, 1594.35, 1701.76, 1571.18, 1692.35, 1553.53, 1684.68, 1536.29, 1701.18, 1518.24, 1709.41, 1498.82, 1712.35, 1478.82, 1712.94, 1455.29, 1704.84, 1433.06, 1694.35, 1416.94, 1689.41, 1406.47, 1707.06, 1390, 1715.29, 1371.76, 1714.52, 1354.03, 1713.71, 1337.9, 1707.26, 1314.52, 1733.87, 1328.23, 1748.82, 1337.06, 1765.32, 1345.16, 1787.1, 1349.19, 1804.84, 1349.19, 1824.12, 1348.24, 1845.88, 1335.88, 1856.47, 1312.94, 1855.88, 1290.59, 1850, 1262.94, 1872.94, 1247.06, 1891.94, 1227.42, 1895.97, 1205.65, 1892.74, 1187.1, 1877.42, 1169.35, 1866.94, 1160.48, 1876.61, 1145.16, 1877.42, 1123.39, 1878.23, 1108.87, 1877.42, 1093.55, 1870, 1079.41, 1851.76, 1067.06, 1825.29, 1067.06, 1792.35, 1070.59, 1770.59, 1077.06, 1744.71, 1091.18, 1728.24, 1105.29, 1698.24, 1127.65, 1680.59, 1140, 1660.48, 1151.61, 1642.94, 1153.53, 1620.59, 1130.59, 1597.65, 1120.59, 1566.47, 1117.06, 1542.35, 1120, 1509.41, 1132.35, 1480, 1116.47, 1453.53, 1110, 1422.58, 1112.9, 1390.59, 1131.76, 1364.12, 1115.29, 1342.94, 1109.41, 1308.24, 1107.06, 1286.47, 1110, 1269.35, 1122.58, 1254.12, 1134.12, 1225.49, 1103.92, 1196.08, 1099.35, 1167.97, 1101.96, 1144.44, 1117.65, 1130.72, 1137.25, 1113.07, 1115.03, 1088.24, 1107.84, 1063.4, 1105.88, 1043.79, 1110.46, 1026.14, 1117.65, 1003.92, 1131.37, 983.66, 1119.61, 964.706, 1111.76, 934.677, 1113.71, 941.935, 1100.81, 943.548, 1073.39, 935.484, 1052.42, 923.387, 1040.32, 941.83, 1013.73, 954.248, 984.314, 949.02, 951.634, 940.523, 930.065, 929.032, 907.258, 928.105, 888.889, 929.412, 869.281, 931.373, 848.366, 927.451, 830.719, 916.34, 815.033, 907.19, 800, 919.608, 784.314, 931.372, 770.588, 942.484, 749.02, 946.774, 726.613, 944.355, 700.806, 930.645, 675, 918.548, 662.903, 935.948, 643.791, 943.791, 626.144, 946.405, 604.575, 943.137, 582.353, 935.948, 564.052, 918.301, 544.444, 926.144, 524.183, 937.903, 501.613, 944.355, 484.677, 951.613, 457.258, 946.405, 422.876, 931.372, 401.307, 917.647, 387.582, 920.261, 366.667, 925, 344.355, 926.613, 322.581, 920.968, 306.452, 903.226, 282.258, 890.323, 271.774, 877.778, 264.706, 875.817, 252.288, 879.085, 232.68, 875.817, 209.804, 872.549, 190.196, 866.013, 162.745, 861.29, 139.516, 852.419, 104.839, 842.742, 73.3871, 827.451, 24.183, 813.726, -6.53595, 793.464, -22.2222, 766.667, -19.6078, 747.581, -1.6129, 737.097, 19.3548, 725.806, 42.7419, 709.677, 77.4193, 699.193, 113.71, 691.935, 139.516, 685.621, 158.824, 667.974, 169.281, 650.327, 186.274, 639.216, 170.588, 628.758, 155.556, 616.129, 127.419, 599.346, 81.0457, 582.353, 31.3725, 567.32, 3.26797, 542.484, -5.88235, 518.301, -4.57516, 504.255, 16.3121, 494.118, 45.7516, 487.097, 75.8065, 479.739, 112.418, 469.935, 149.02, 458.824, 190.85, 448.936, 220.567, 424.823, 236.17, 410.638, 261.702, 403.546, 289.362, 402.837, 314.894, 408.064, 335.484 )
 
-[node name="Skeleton2D" type="Skeleton2D" parent="."]
-position = Vector2( -898, 682 )
+[node name="Skeleton2D" type="Skeleton2D" parent="Marshall"]
+position = Vector2( 785, 584 )
+rotation = 3.14159
+scale = Vector2( 1, -1 )
 
-[node name="Hip" type="Bone2D" parent="Skeleton2D"]
+[node name="Hip" type="Bone2D" parent="Marshall/Skeleton2D"]
 position = Vector2( 378, -686 )
 rest = Transform2D( 1, 0, 0, 1, 378, -686 )
 default_length = 500.0
 
-[node name="Torso" type="Bone2D" parent="Skeleton2D/Hip"]
+[node name="Torso" type="Bone2D" parent="Marshall/Skeleton2D/Hip"]
 position = Vector2( 436, 4 )
 rest = Transform2D( 1, 0, 0, 1, 436, 4 )
 
-[node name="Neck" type="Bone2D" parent="Skeleton2D/Hip/Torso"]
+[node name="Neck" type="Bone2D" parent="Marshall/Skeleton2D/Hip/Torso"]
 position = Vector2( 458, 0 )
 rotation = -1.90222
 rest = Transform2D( -0.325384, -0.945582, 0.945582, -0.325384, 458, 0 )
 
-[node name="Head" type="Bone2D" parent="Skeleton2D/Hip/Torso/Neck"]
+[node name="Head" type="Bone2D" parent="Marshall/Skeleton2D/Hip/Torso/Neck"]
 position = Vector2( 856.016, 299.852 )
 rotation = 1.90645
 rest = Transform2D( -0.329384, 0.944196, -0.944196, -0.329384, 856.016, 299.852 )
 default_length = 400.0
 
-[node name="ArmR" type="Bone2D" parent="Skeleton2D/Hip/Torso"]
+[node name="ArmR" type="Bone2D" parent="Marshall/Skeleton2D/Hip/Torso"]
 position = Vector2( 515, 188 )
 rotation = 1.578
 rest = Transform2D( -0.00720666, 0.999974, -0.999974, -0.00720666, 515, 188 )
 default_length = 400.0
 
-[node name="ArmL" type="Bone2D" parent="Skeleton2D/Hip/Torso"]
+[node name="ArmL" type="Bone2D" parent="Marshall/Skeleton2D/Hip/Torso"]
 position = Vector2( 282, 197 )
 rotation = 1.578
 rest = Transform2D( -0.00720666, 0.999974, -0.999974, -0.00720666, 282, 197 )
 default_length = 400.0
 
-[node name="LegR" type="Bone2D" parent="Skeleton2D/Hip"]
+[node name="LegR" type="Bone2D" parent="Marshall/Skeleton2D/Hip"]
 position = Vector2( 197, 228 )
 rotation = 1.578
 rest = Transform2D( -0.00720666, 0.999974, -0.999974, -0.00720666, 197, 228 )
 default_length = 400.0
 
-[node name="LegL" type="Bone2D" parent="Skeleton2D/Hip"]
+[node name="LegL" type="Bone2D" parent="Marshall/Skeleton2D/Hip"]
 position = Vector2( -1.00003, 232 )
 rotation = 1.578
 rest = Transform2D( -0.00720666, 0.999974, -0.999974, -0.00720666, -1.00003, 232 )
 default_length = 400.0
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Marshall"]
+root_node = NodePath("../..")
 playback_speed = 4.0
 anims/Idle = SubResource( 3 )
 anims/Jump = SubResource( 4 )
