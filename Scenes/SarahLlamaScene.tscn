@@ -1,6 +1,5 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://Art/Charlles/Charlles.png" type="Texture" id=1]
 [ext_resource path="res://Art/Charlles/Charlles_Pieces.png" type="Texture" id=2]
 
 [sub_resource type="Animation" id=3]
@@ -501,16 +500,7 @@ tracks/9/keys = {
 "values": [ -106.99, -102.838, -97.0665, -87.3899, -95.895, -104.805, -115.507, -122.228, -114.609, -106.99 ]
 }
 
-[node name="Charlles" type="Node2D"]
-
-[node name="Charlles" type="Sprite" parent="."]
-visible = false
-modulate = Color( 1, 1, 1, 0.396078 )
-position = Vector2( 1238, -1062 )
-texture = ExtResource( 1 )
-__meta__ = {
-"_edit_lock_": true
-}
+[node name="Llamas" type="Node2D"]
 
 [node name="Polygons" type="Node2D" parent="."]
 position = Vector2( -898, 682 )
