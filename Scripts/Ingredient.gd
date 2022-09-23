@@ -8,8 +8,8 @@ extends Area2D
 func _physics_process(delta):
 	for body in get_overlapping_bodies():
 		if body.has_method("pickup_ingredient"):
-			body.pickup()
-			self.get_parent().hide()
+			body.pickup_ingredient(self.get_parent().name)
+			self.get_parent().queue_free()
 
 
 # Called when the node enters the scene tree for the first time.
