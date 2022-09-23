@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Art/man.PNG" type="Texture" id=1]
 [ext_resource path="res://Scripts/Human.gd" type="Script" id=2]
 [ext_resource path="res://Art/Blood.png" type="Texture" id=3]
 [ext_resource path="res://Scripts/NPCMovement.gd" type="Script" id=4]
+[ext_resource path="res://Audio/Sound Effects/Horror stab.mp3" type="AudioStream" id=5]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 39, 96 )
@@ -24,3 +25,10 @@ script = ExtResource( 2 )
 visible = false
 scale = Vector2( 0.53913, 0.53913 )
 texture = ExtResource( 3 )
+
+[node name="Scream" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 5 )
+
+[node name="Stab" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 5 )
+bus = "Horror"
