@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/fun-kids-playful-comic-carefree-game-happy-positive-music-57026.mp3-71f2cf4a3363643d501b83fe614be85c.mp3str"
+
+[deps]
+
+source_file="res://Audio/Music/fun-kids-playful-comic-carefree-game-happy-positive-music-57026.mp3"
+dest_files=[ "res://.import/fun-kids-playful-comic-carefree-game-happy-positive-music-57026.mp3-71f2cf4a3363643d501b83fe614be85c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
