@@ -51,6 +51,14 @@ jump={
  ]
 }
 
+[layer_names]
+
+2d_physics/layer_1=false
+2d_physics/layer_2=false
+2d_physics/layer_3=false
+2d_physics/layer_4=false
+2d_physics/layer_5=false
+
 [physics]
 
 common/enable_pause_aware_picking=true
