@@ -6,7 +6,7 @@
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 55.5, 138.25 )
 
-[node name="Node2D" type="Node2D"]
+[node name="Carrot" type="Node2D"]
 
 [node name="Carrot" type="Node2D" parent="."]
 
