@@ -7,8 +7,6 @@ var jump_speed = 1000
 var gravity = 3000
 var velocity = Vector2()
 var idle = true
-var collectedIngredients = []
-var collectedHumanMeat = 0
 
 func get_input(delta):
 	if Input.is_action_pressed("restart"):
@@ -47,7 +45,8 @@ func _physics_process(delta):
 	get_input(delta)
 	
 func pickup_ingredient(name):
-	collectedIngredients.append(name)
-	
-func pickup_meat():
-	collectedHumanMeat += 1
+	Collectables.collected_ingredients.append(name)
+func pickup_human_meat():
+	Collectables.collected_human_meat += 1
+func pickup_llama_meat():
+	Collectables.collected_llama_meat += 1

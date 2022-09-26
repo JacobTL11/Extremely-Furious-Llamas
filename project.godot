@@ -24,10 +24,18 @@ config/name="Extremely Furious Llamas"
 run/main_scene="res://Scenes/DaleTestTileMap.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+Collectables="*res://Scripts/Collectables.gd"
+
 [editor]
 
 version_control_autoload_on_startup=true
 version_control_plugin_name="GitAPI"
+
+[global]
+
+autoload=false
 
 [gui]
 
