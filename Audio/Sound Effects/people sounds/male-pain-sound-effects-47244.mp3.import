@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/male-pain-sound-effects-47244.mp3-5f23fd3b418cd7703c1d0c129739d57a.mp3str"
+
+[deps]
+
+source_file="res://Audio/Sound Effects/people sounds/male-pain-sound-effects-47244.mp3"
+dest_files=[ "res://.import/male-pain-sound-effects-47244.mp3-5f23fd3b418cd7703c1d0c129739d57a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

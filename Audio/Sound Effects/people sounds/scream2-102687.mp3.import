@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/scream2-102687.mp3-71216cc750b5480fb038fcb1276d0fa6.mp3str"
+
+[deps]
+
+source_file="res://Audio/Sound Effects/people sounds/scream2-102687.mp3"
+dest_files=[ "res://.import/scream2-102687.mp3-71216cc750b5480fb038fcb1276d0fa6.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

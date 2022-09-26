@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/man-screaming-6373.mp3-f8aa3cbfbd5c8aef4edc693b340b72d5.mp3str"
+
+[deps]
+
+source_file="res://Audio/Sound Effects/people sounds/man-screaming-6373.mp3"
+dest_files=[ "res://.import/man-screaming-6373.mp3-f8aa3cbfbd5c8aef4edc693b340b72d5.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

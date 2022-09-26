@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/onlymp3.to - Dying llama-z6l3gIGU334-192k-1654324762947.mp3-91786fba1470050e22288d832681ff05.mp3str"
+
+[deps]
+
+source_file="res://Audio/Sound Effects/llama sounds/onlymp3.to - Dying llama-z6l3gIGU334-192k-1654324762947.mp3"
+dest_files=[ "res://.import/onlymp3.to - Dying llama-z6l3gIGU334-192k-1654324762947.mp3-91786fba1470050e22288d832681ff05.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

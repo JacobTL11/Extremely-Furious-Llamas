@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/walk-in-grass-for-cartoon-1-64440.mp3-7ac7c895467471191cef053a835863bc.mp3str"
+
+[deps]
+
+source_file="res://Audio/Sound Effects/llama sounds/walk-in-grass-for-cartoon-1-64440.mp3"
+dest_files=[ "res://.import/walk-in-grass-for-cartoon-1-64440.mp3-7ac7c895467471191cef053a835863bc.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

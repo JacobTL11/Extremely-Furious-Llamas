@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/inventory-close-94504.mp3-48a7ef5020fc935daac1b35989f23439.mp3str"
+
+[deps]
+
+source_file="res://Audio/Sound Effects/item sounds/inventory-close-94504.mp3"
+dest_files=[ "res://.import/inventory-close-94504.mp3-48a7ef5020fc935daac1b35989f23439.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

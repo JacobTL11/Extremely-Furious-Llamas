@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Horror stab.mp3-ef8f284f1b4bc19a1bea3318802e402e.mp3str"
+
+[deps]
+
+source_file="res://Audio/Sound Effects/horror sounds/Horror stab.mp3"
+dest_files=[ "res://.import/Horror stab.mp3-ef8f284f1b4bc19a1bea3318802e402e.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

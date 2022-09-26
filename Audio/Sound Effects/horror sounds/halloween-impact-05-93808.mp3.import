@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/halloween-impact-05-93808.mp3-e5632da791e3e3e2931342df3f7bf6c4.mp3str"
+
+[deps]
+
+source_file="res://Audio/Sound Effects/horror sounds/halloween-impact-05-93808.mp3"
+dest_files=[ "res://.import/halloween-impact-05-93808.mp3-e5632da791e3e3e2931342df3f7bf6c4.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
