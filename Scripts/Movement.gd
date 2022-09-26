@@ -3,25 +3,29 @@ extends KinematicBody2D
 onready var Charlles = get_node("Charlles")
 onready var animator = get_node("Charlles/AnimationPlayer")
 var speed = 600
-var jump_speed = 500
-var gravity = 1000
+var jump_speed = 1000
+var gravity = 3000
 var velocity = Vector2()
 var idle = true
 var collectedIngredients = []
 var collectedHumanMeat = 0
 
 func get_input(delta):
+	if Input.is_action_pressed("restart"):
+		get_tree().reload_current_scene()
 	idle = true
 	velocity.x = 0
 	if Input.is_action_pressed("move_left"):
 		idle = false
-		animator.play("Walk")
+		if (is_on_floor()):
+			animator.play("Walk")
 		velocity.x -= speed
 		if (Charlles.scale.x == 1):
 			Charlles.scale.x = -1
 	if Input.is_action_pressed("move_right"):
 		idle = false
-		animator.play("Walk")
+		if (is_on_floor()):
+			animator.play("Walk")
 		velocity.x += speed
 		if (Charlles.scale.x == -1):
 			Charlles.scale.x = 1
