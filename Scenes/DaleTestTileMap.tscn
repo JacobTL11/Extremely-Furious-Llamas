@@ -2,7 +2,7 @@
 
 [ext_resource path="res://Art/Tilemap 1.png" type="Texture" id=1]
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Scenes/Camera.gd" type="Script" id=3]
+[ext_resource path="res://Scripts/Camera.gd" type="Script" id=3]
 
 [sub_resource type="TileSet" id=8]
 0/name = "Tilemap 1.png 0"
@@ -303,7 +303,6 @@ points = PoolVector2Array( 378, 69, 0, 69, 0, 0, 378, 0 )
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
 [node name="ParallaxLayer Back" type="ParallaxLayer" parent="ParallaxBackground"]
-position = Vector2( 0, 350 )
 motion_scale = Vector2( 0.5, 0 )
 
 [node name="TileMap Background" type="TileMap" parent="ParallaxBackground/ParallaxLayer Back"]
@@ -333,7 +332,6 @@ layer = 10
 
 [node name="ParallaxLayer Front" type="ParallaxLayer" parent="ParallaxBackground2"]
 modulate = Color( 1, 1, 1, 0.701961 )
-position = Vector2( 0, 254 )
 motion_scale = Vector2( 1.5, 0 )
 
 [node name="TileMap Grass" type="TileMap" parent="ParallaxBackground2/ParallaxLayer Front"]

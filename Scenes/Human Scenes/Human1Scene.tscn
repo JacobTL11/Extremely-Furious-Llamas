@@ -223,13 +223,13 @@ default_length = 600.0
 
 [node name="LegR" type="Bone2D" parent="Skeleton2D/Hip"]
 position = Vector2( 57.2749, -75.793 )
-rotation = -3.01573
+rotation = -3.01574
 rest = Transform2D( -0.99209, -0.125532, 0.125532, -0.99209, 57.2749, -75.793 )
 default_length = 700.0
 
 [node name="LegL" type="Bone2D" parent="Skeleton2D/Hip"]
 position = Vector2( 56.6591, 94.2059 )
-rotation = 3.00976
+rotation = 3.00977
 rest = Transform2D( -0.991323, 0.13145, -0.13145, -0.991323, 56.6591, 94.2059 )
 default_length = 700.0
 
