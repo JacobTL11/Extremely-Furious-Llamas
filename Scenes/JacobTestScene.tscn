@@ -69,3 +69,6 @@ position = Vector2( 659, -64 )
 
 [node name="Carrot" parent="." instance=ExtResource( 9 )]
 position = Vector2( -350, -271 )
+
+[node name="Carrot2" parent="." instance=ExtResource( 9 )]
+position = Vector2( -212, -181 )
