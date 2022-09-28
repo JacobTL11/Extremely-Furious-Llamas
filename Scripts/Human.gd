@@ -3,7 +3,7 @@ extends CollisionShape2D
 onready var human = get_node("../Humans/Human1")
 onready var explosion = get_node("../Explosion")
 onready var StabPlayer = get_node("../Stab")
-onready var BGMplayer = get_node("../../BackgroundMusic")
+onready var BGMplayer = get_node("../../../BackgroundMusic")
 var dead : bool = false
 var rng = RandomNumberGenerator.new()
 
