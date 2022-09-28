@@ -16,10 +16,6 @@ position = Vector2( 3.99998, -11 )
 scale = Vector2( 0.359712, 0.359712 )
 texture = ExtResource( 1 )
 
-[node name="PickupSound" type="AudioStreamPlayer" parent="Carrot"]
-stream = ExtResource( 3 )
-autoplay = true
-
 [node name="Area2D" type="Area2D" parent="Carrot"]
 position = Vector2( 0.5, -60.5 )
 script = ExtResource( 2 )
@@ -27,3 +23,8 @@ script = ExtResource( 2 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Carrot/Area2D"]
 position = Vector2( -10.5, 66.5 )
 shape = SubResource( 1 )
+
+[node name="PickupSound" type="AudioStreamPlayer" parent="Carrot"]
+stream = ExtResource( 3 )
+volume_db = 24.0
+bus = "Pickup"
