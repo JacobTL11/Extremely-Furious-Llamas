@@ -25,6 +25,7 @@ script = ExtResource( 3 )
 
 [node name="Explosion" type="Sprite" parent="."]
 visible = false
+modulate = Color( 1, 1, 1, 0.709804 )
 scale = Vector2( 0.53913, 0.53913 )
 texture = ExtResource( 2 )
 

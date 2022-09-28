@@ -3,7 +3,7 @@ extends CollisionShape2D
 onready var llama = get_node("../Llamas/Allex")
 onready var explosion = get_node("../Explosion")
 onready var StabPlayer = get_node("../Stab")
-onready var BGMplayer = get_node("../../BackgroundMusic")
+onready var BGMplayer = get_node("../../../BackgroundMusic")
 var dead : bool = false
 var rng = RandomNumberGenerator.new()
 
