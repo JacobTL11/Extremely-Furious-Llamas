@@ -8,10 +8,11 @@ func _physics_process(delta):
 			
 			
 			effect.play()
-			print(effect.is_playing())
-			print(effect.name)
-			#yield(get_tree().create_timer(0.5), "timeout")
-			self.get_parent().queue_free()
+			#print(effect.is_playing())
+			#print(effect.name)
+			
+			self.get_parent().visible = false
+			yield(get_tree().create_timer(5), "timeout")
 			
 # Called when the node enters the scene tree for the first time.
 func _ready():

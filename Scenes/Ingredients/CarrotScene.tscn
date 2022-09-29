@@ -24,7 +24,5 @@ script = ExtResource( 2 )
 position = Vector2( -10.5, 66.5 )
 shape = SubResource( 1 )
 
-[node name="PickupSound" type="AudioStreamPlayer" parent="Carrot"]
+[node name="PickupSound" type="AudioStreamPlayer2D" parent="Carrot"]
 stream = ExtResource( 3 )
-volume_db = 24.0
-bus = "Pickup"

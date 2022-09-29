@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Art/Ingredients/Ginger.png" type="Texture" id=1]
 [ext_resource path="res://Scripts/Ingredient.gd" type="Script" id=2]
+[ext_resource path="res://Audio/Sound Effects/item sounds/pop-39222.mp3" type="AudioStream" id=3]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 208, 250.5 )
@@ -20,3 +21,6 @@ script = ExtResource( 2 )
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Ginger/Area2D"]
 position = Vector2( 6, 23.5 )
 shape = SubResource( 1 )
+
+[node name="PickupSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 3 )
