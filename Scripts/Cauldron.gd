@@ -15,5 +15,6 @@ func _physics_process(delta):
 			elif (ing > human && ing > llama):#more ingreadients
 				get_tree().change_scene("res://Scenes/PacifistEndingScene.tscn")
 			else:
+				get_tree().change_scene("res://Scenes/CreditScene.tscn")
 				pass
 
