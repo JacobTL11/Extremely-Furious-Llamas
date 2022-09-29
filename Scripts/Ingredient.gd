@@ -1,5 +1,5 @@
 extends Area2D
-onready var effect = get_parent().get_node("PickupSound")
+#onready var effect = get_parent().get_node("PickupSound")
 func _physics_process(delta):
 	for body in get_overlapping_bodies():
 		if body.name == "Player":
@@ -7,7 +7,7 @@ func _physics_process(delta):
 			#print(get_parent().get_parent().get_node("PickupSound").name)
 			
 			
-			effect.play()
+			#effect.play()
 			#print(effect.is_playing())
 			#print(effect.name)
 			
