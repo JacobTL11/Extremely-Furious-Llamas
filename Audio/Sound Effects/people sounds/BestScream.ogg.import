@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/BestScream.ogg-621d2dc6a059dabee31f351f8dc9e8f5.oggstr"
+
+[deps]
+
+source_file="res://Audio/Sound Effects/people sounds/BestScream.ogg"
+dest_files=[ "res://.import/BestScream.ogg-621d2dc6a059dabee31f351f8dc9e8f5.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

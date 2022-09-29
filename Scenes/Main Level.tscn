@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=2]
+[gd_scene load_steps=16 format=2]
 
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Art/Tilemap 1.png" type="Texture" id=2]
@@ -7,7 +7,6 @@
 [ext_resource path="res://Scenes/Human.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Audio/Music/fun-kids-playful-comic-carefree-game-happy-positive-music-57026.mp3" type="AudioStream" id=6]
 [ext_resource path="res://Scripts/BackgroundMusic.gd" type="Script" id=7]
-[ext_resource path="res://Scripts/Collectables.gd" type="Script" id=8]
 
 [sub_resource type="TileSet" id=6]
 0/name = "Tilemap 1.png 0"
@@ -304,7 +303,6 @@ points = PoolVector2Array( 378, 69, 0, 69, 0, 0, 378, 0 )
 1/z_index = 0
 
 [node name="Node2D" type="Node2D"]
-script = ExtResource( 8 )
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 offset = Vector2( 0, 230 )
@@ -365,6 +363,6 @@ position = Vector2( 694, -124 )
 [node name="BackgroundMusic" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 6 )
 autoplay = true
-max_distance = 1e+14
+max_distance = 20000.0
 attenuation = 0.00240458
 script = ExtResource( 7 )
