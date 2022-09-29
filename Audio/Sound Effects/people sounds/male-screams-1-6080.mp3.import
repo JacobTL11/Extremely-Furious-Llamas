@@ -11,5 +11,5 @@ dest_files=[ "res://.import/male-screams-1-6080.mp3-dc1d03207583fa6bee9cd985a011
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

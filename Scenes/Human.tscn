@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://Scenes/Human Scenes/Human2Scene.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scripts/Human.gd" type="Script" id=2]
@@ -9,6 +9,7 @@
 [ext_resource path="res://Scenes/Human Scenes/Human5Scene.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Scenes/Human Scenes/Human3Scene.tscn" type="PackedScene" id=8]
 [ext_resource path="res://Scenes/Human Scenes/Human4Scene.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Audio/Sound Effects/people sounds/BestScream.ogg" type="AudioStream" id=10]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 39.9361, 105.874 )
@@ -30,7 +31,7 @@ scale = Vector2( 0.53913, 0.53913 )
 texture = ExtResource( 3 )
 
 [node name="Scream" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource( 5 )
+stream = ExtResource( 10 )
 
 [node name="Stab" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 5 )

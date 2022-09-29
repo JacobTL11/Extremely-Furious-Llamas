@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://Scenes/Llama Scenes/AllexScene.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Art/Blood.png" type="Texture" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://Audio/Sound Effects/horror sounds/Horror stab.mp3" type="AudioStream" id=4]
 [ext_resource path="res://Scenes/Llama Scenes/BobScene.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Scenes/Llama Scenes/VellmaScene.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Audio/Sound Effects/llama sounds/onlymp3.to - Dying llama-z6l3gIGU334-192k-1654324762947.mp3" type="AudioStream" id=7]
 [ext_resource path="res://Scenes/Llama Scenes/MarshallScene.tscn" type="PackedScene" id=8]
 [ext_resource path="res://Scenes/Llama Scenes/LliamScene.tscn" type="PackedScene" id=9]
 [ext_resource path="res://Scripts/NPCMovement.gd" type="Script" id=10]
@@ -30,7 +31,7 @@ scale = Vector2( 0.53913, 0.53913 )
 texture = ExtResource( 2 )
 
 [node name="Scream" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource( 4 )
+stream = ExtResource( 7 )
 
 [node name="Stab" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 4 )

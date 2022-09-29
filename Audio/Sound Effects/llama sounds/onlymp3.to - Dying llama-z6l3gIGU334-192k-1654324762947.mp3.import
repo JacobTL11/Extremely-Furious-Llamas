@@ -11,5 +11,5 @@ dest_files=[ "res://.import/onlymp3.to - Dying llama-z6l3gIGU334-192k-1654324762
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0
