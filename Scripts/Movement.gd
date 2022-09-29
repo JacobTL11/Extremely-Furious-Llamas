@@ -15,6 +15,8 @@ func get_input(delta):
 	velocity.x = 0
 	if Input.is_action_pressed("move_left"):
 		idle = false
+		get_node("KnifeParent/LeftKnife").disabled = false
+		get_node("KnifeParent/RightKnife").disabled = true
 		if (is_on_floor()):
 			animator.play("Walk")
 		velocity.x -= speed
@@ -22,6 +24,8 @@ func get_input(delta):
 			Charlles.scale.x = -1
 	if Input.is_action_pressed("move_right"):
 		idle = false
+		get_node("KnifeParent/LeftKnife").disabled = true
+		get_node("KnifeParent/RightKnife").disabled = false
 		if (is_on_floor()):
 			animator.play("Walk")
 		velocity.x += speed

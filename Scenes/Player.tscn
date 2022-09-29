@@ -17,10 +17,16 @@ script = ExtResource( 2 )
 collision_mask = 2
 script = ExtResource( 3 )
 
-[node name="KnifeCollision" type="CollisionShape2D" parent="KnifeParent"]
-position = Vector2( 1119, -12 )
+[node name="RightKnife" type="CollisionShape2D" parent="KnifeParent"]
+position = Vector2( 1120, -12 )
 scale = Vector2( 20, 20 )
 shape = SubResource( 2 )
+
+[node name="LeftKnife" type="CollisionShape2D" parent="KnifeParent"]
+position = Vector2( -1120, -12 )
+scale = Vector2( 20, 20 )
+shape = SubResource( 2 )
+disabled = true
 
 [node name="PlayerCollision" type="CollisionShape2D" parent="."]
 position = Vector2( -27, -383 )
