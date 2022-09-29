@@ -2,9 +2,8 @@ extends CollisionShape2D
 
 onready var llama = get_node("../Llamas/Allex")
 onready var explosion = get_node("../Explosion")
-onready var StabPlayer = get_node("../Stab")
 onready var ScreamPlayer = get_node("../Scream")
-onready var BGMplayer = get_node("../../../BackgroundMusic")
+onready var BGMplayer = get_node("../../../Player/BackgroundMusic")
 var dead : bool = false
 var rng = RandomNumberGenerator.new()
 
@@ -30,11 +29,9 @@ func LlamaDie():
 		dead = true
 		llama.visible = false
 		explosion.visible = true
-		StabPlayer.pitch_scale = rng.randf_range(2,4)
 		BGMplayer.pause_for_horror()
 		self.disabled = true
 		self.visible = false
-		StabPlayer.play()
 		ScreamPlayer.play(0.63)
 		get_node("../").dead = true
 		yield(get_tree().create_timer(1), "timeout")

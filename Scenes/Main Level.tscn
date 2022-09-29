@@ -319,6 +319,8 @@ __meta__ = {
 }
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+offset = Vector2( 0, 220 )
+transform = Transform2D( 1, 0, 0, 1, 0, 220 )
 
 [node name="ParallaxLayer Back" type="ParallaxLayer" parent="ParallaxBackground"]
 motion_scale = Vector2( 0.5, 0 )
@@ -330,9 +332,18 @@ format = 1
 tile_data = PoolIntArray( -1572924, 1, 0, -1638400, 1, 0, -1638340, 1, 0, -1638280, 1, 0, -1638220, 1, 0, -1638160, 1, 0, -1638100, 1, 0, -1638040, 1, 0, -1637980, 1, 0, -1637920, 1, 0, -1637860, 1, 0, -1637800, 1, 0, -1637778, 536870913, 0, -1637735, 536870913, 0, -1507265, 6, 0, -1507151, 6, 0, -1376273, 6, 0, -1441521, 9, 0, -1441401, 9, 0, -1441221, 9, 0, -1441195, 2, 0, -1376174, 7, 0, -1310407, 8, 0, -1310287, 8, 0, -1310107, 8, 0, -1244972, 7, 0, -1244893, 6, 0, -1244773, 6, 0, -1244593, 6, 0, -1114164, 2, 0, -1179648, 6, 0, -1179615, 2, 0, -1179566, 3, 0, -1179505, 6, 0, -1179399, 2, 0, -1179320, 2, 0, -1179080, 2, 0, -1114012, 6, 0, -1113993, 9, 0, -1113804, 9, 0, -1113742, 3, 0, -1113684, 9, 0, -1113646, 3, 0, -1113504, 9, 0, -1048299, 8, 0, -1048179, 8, 0, -1048093, 2, 0, -1047999, 8, 0, -982988, 8, 0, -982883, 7, 0, -982803, 7, 0, -982687, 3, 0, -982503, 7, 0, -917430, 6, 0, -917382, 2, 0, -917312, 6, 0, -917242, 6, 0, -917122, 6, 0, -917077, 3, 0, -916942, 6, 0, -851870, 6, 0, -851670, 2, 0, -786253, 2, 0, -654823, 2, 0, -524348, 0, 0, -589824, 0, 0, -589764, 0, 0, -589704, 0, 0, -589644, 0, 0, -589584, 0, 0, -589524, 0, 0, -589464, 0, 0, -589404, 0, 0, -589344, 0, 0, -589284, 0, 0, -589224, 0, 0, -589164, 536870912, 0, 2097776, 536870916, 0, 2228877, 536870916, 0, 3211883, 536870916, 0, 3277419, 536870916, 0, 3342955, 536870916, 0, 3408492, 536870916, 0, 3474028, 536870916, 0, 3539565, 536870916, 0, 3539607, 536870916, 0, 3539608, 536870916, 0, 3605102, 536870916, 0, 3605143, 536870916, 0, 3670639, 536870916, 0, 3670679, 536870916, 0, 3736176, 536870916, 0, 3736213, 536870916, 0, 3736214, 536870916, 0, 3801713, 536870916, 0, 3801747, 536870916, 0, 3801748, 536870916, 0, 3867250, 536870916, 0, 3867282, 536870916, 0, 3932787, 536870916, 0, 3932816, 536870916, 0, 3932817, 536870916, 0, 3998324, 536870916, 0, 3998350, 536870916, 0, 3998351, 536870916, 0, 4063861, 536870916, 0, 4063885, 536870916, 0, 4129398, 536870916, 0, 4129399, 536870916, 0, 4129418, 536870916, 0, 4129419, 536870916, 0, 4129420, 536870916, 0, 4194936, 536870916, 0, 4194951, 536870916, 0, 4194952, 536870916, 0, 4194953, 536870916, 0, 4260473, 536870916, 0, 4260474, 536870916, 0, 4260475, 536870916, 0, 4260486, 536870916, 0, 4326012, 536870916, 0, 4326013, 536870916, 0, 4326014, 536870916, 0, 4326015, 536870916, 0, 4326016, 536870916, 0, 4326017, 536870916, 0, 4326018, 536870916, 0, 4326019, 536870916, 0, 4326020, 536870916, 0, 4326021, 536870916, 0 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 19892, -595 )
+position = Vector2( -246, -60 )
 scale = Vector2( 0.05, 0.05 )
 collision_layer = 0
+
+[node name="BackgroundMusic" type="AudioStreamPlayer2D" parent="Player"]
+position = Vector2( 4920, 1200 )
+scale = Vector2( 20, 20 )
+stream = ExtResource( 6 )
+autoplay = true
+max_distance = 20000.0
+attenuation = 0.00240458
+script = ExtResource( 7 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2( -480, -338 )
@@ -348,6 +359,8 @@ tile_data = PoolIntArray( -3275476, -2147483648, 0, -2882743, 3, 0, -2882741, 3,
 
 [node name="ParallaxBackground2" type="ParallaxBackground" parent="."]
 layer = 10
+offset = Vector2( 0, 210 )
+transform = Transform2D( 1, 0, 0, 1, 0, 210 )
 
 [node name="ParallaxLayer Front" type="ParallaxLayer" parent="ParallaxBackground2"]
 modulate = Color( 1, 1, 1, 0.701961 )
@@ -386,6 +399,10 @@ scale = Vector2( 0.8, 0.8 )
 position = Vector2( 23857.5, -515 )
 scale = Vector2( 0.8, 0.8 )
 
+[node name="Human7" parent="Humans" instance=ExtResource( 5 )]
+position = Vector2( 17515, -292.5 )
+scale = Vector2( 0.8, 0.8 )
+
 [node name="Llamas" type="Node2D" parent="."]
 scale = Vector2( 0.5, 0.5 )
 
@@ -401,12 +418,14 @@ position = Vector2( 31566, -306 )
 [node name="Llama4" parent="Llamas" instance=ExtResource( 4 )]
 position = Vector2( 39320, -748 )
 
-[node name="BackgroundMusic" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource( 6 )
-autoplay = true
-max_distance = 20000.0
-attenuation = 0.00240458
-script = ExtResource( 7 )
+[node name="Llama5" parent="Llamas" instance=ExtResource( 4 )]
+position = Vector2( 5580, -1184 )
+
+[node name="Llama6" parent="Llamas" instance=ExtResource( 4 )]
+position = Vector2( 27362, -592 )
+
+[node name="Llama7" parent="Llamas" instance=ExtResource( 4 )]
+position = Vector2( 35456, -78 )
 
 [node name="ingrediends" type="Node2D" parent="."]
 scale = Vector2( 0.2, 0.2 )

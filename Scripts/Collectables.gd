@@ -12,7 +12,6 @@ func pickup_ingredient(name):
 	Collectables.collected_ingredients.append(name)
 func pickup_human_meat():
 	Collectables.collected_human_meat += 1
+
 func pickup_llama_meat():
 	Collectables.collected_llama_meat += 1
-
-
