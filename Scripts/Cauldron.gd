@@ -9,11 +9,11 @@ func _physics_process(delta):
 			var llama = Collectables.collected_llama_meat
 			var ing = len(Collectables.collected_ingredients)
 			if (human > llama && human > ing):#more human
-				get_tree().change_scene("res://Scenes/Cauldron.tscn")
+				get_tree().change_scene("res://Scenes/KillerEnding.tscn")
 			elif (llama > human && llama > ing):#more llama
-				get_tree().change_scene("res://Scenes/Cauldron.tscn")
+				get_tree().change_scene("res://Scenes/CannibalEndingScene.tscn")
 			elif (ing > human && ing > llama):#more ingreadients
-				get_tree().change_scene("res://Scenes/Cauldron.tscn")
+				get_tree().change_scene("res://Scenes/PacifistEndingScene.tscn")
 			else:
 				pass
 
