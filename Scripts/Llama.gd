@@ -25,7 +25,7 @@ func Setup():
 	llama.visible = true
 	return llama.name
 
-func die():
+func LlamaDie():
 	if (!dead):
 		dead = true
 		llama.visible = false

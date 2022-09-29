@@ -15,8 +15,8 @@ func _physics_process(delta):
 			yield(get_tree().create_timer(5), "timeout")
 			
 # Called when the node enters the scene tree for the first time.
-func _ready():
-	var effect = get_parent().get_node("PickupSound")
+#unc _ready():
+	#var effect = get_parent().get_node("PickupSound")
 	#effect.play() # Replace with function body.
 
 

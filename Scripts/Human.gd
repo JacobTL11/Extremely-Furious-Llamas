@@ -26,7 +26,7 @@ func Setup():
 	print(human)
 	return human.name
 
-func die():
+func HumanDie():
 	if (!dead):
 		dead = true
 		human.visible = false
