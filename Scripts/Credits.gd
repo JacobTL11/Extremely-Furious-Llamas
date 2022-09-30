@@ -10,6 +10,7 @@ extends Node
 func _input(ev):
 	if Input.is_key_pressed(KEY_SPACE):
 		get_tree().change_scene("res://Scenes/Menu.tscn")
+		Collectables.reset()
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

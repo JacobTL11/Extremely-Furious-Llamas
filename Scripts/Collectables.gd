@@ -15,3 +15,8 @@ func pickup_human_meat():
 
 func pickup_llama_meat():
 	Collectables.collected_llama_meat += 1
+
+func reset():
+	Collectables.collected_human_meat = 0
+	Collectables.collected_llama_meat = 0
+	Collectables.collected_ingredients = []
