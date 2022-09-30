@@ -9,8 +9,15 @@ var velocity = Vector2()
 var idle = true
 
 func get_input(delta):
+	
+	if Input.is_key_pressed(KEY_ESCAPE):
+		get_tree().change_scene("res://Scenes/Menu.tscn")
+	
 	if Input.is_action_pressed("restart"):
 		get_tree().reload_current_scene()
+		Collectables.collected_human_meat = 0
+		Collectables.collected_llama_meat = 0
+		Collectables.collected_ingredients = []
 	idle = true
 	velocity.x = 0
 	if Input.is_action_pressed("move_left"):
