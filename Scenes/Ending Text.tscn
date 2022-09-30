@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/Ending Text.gd" type="Script" id=1]
+
+[node name="RichTextLabel" type="RichTextLabel"]
+margin_right = 1021.0
+margin_bottom = 130.0
+text = "Collected Human Meat: {Humans}
+Collected Llama Meat: {Llamas}
+Collected Ingredients: {Ingredients}"
+scroll_active = false
+script = ExtResource( 1 )

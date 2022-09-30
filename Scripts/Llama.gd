@@ -34,5 +34,5 @@ func LlamaDie():
 		self.visible = false
 		ScreamPlayer.play(0.63)
 		get_node("../").dead = true
-		yield(get_tree().create_timer(1), "timeout")
+		yield(get_tree().create_timer(1.5), "timeout")
 		get_node("../").queue_free()
